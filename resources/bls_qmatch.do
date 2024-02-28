@@ -59,7 +59,7 @@ program qc_tables
 end
  
 ***
-label define ychild 1 "Young Child present" 0 "No Young Child Present"
+label define ychild 1 "Young Child present" 0 "No Young Child"
 label values ychild ychild 
 label define work_child 1 "Not Working no Children" ///
                         2 "Not Working with Children" ///
@@ -97,7 +97,7 @@ label values q5 q5
 fre race ychild work_child tchild tadult age_g cpl educ_g q5 hhown sex
 
 label var race "Race" 
-label var ychild "Young Children Present" 
+label var ychild "Young Children" 
 label var work_child "Works x Children"
 label var tchild "# of Children"
 label var tadult "# of Adults"
@@ -105,85 +105,225 @@ label var age_g "Age group"
 label var cpl "Single/Couple"
 label var educ_g "Education Level"
 label var q5 "Income Quantile"
-label var hhown "Home Ownership Status"
+label var hhown "Home Ownership"
 label var sex "Gender"
 label var dchild "Child Present"
 label define dchild 1 "Child Present" 0 "No Children"
 label values dchild dchild 
+label var works "Working Status"
+label define works 1 "Working" 0 "Not working"
+label values works works
 ** Essentials
 
-fre race ychild work_child tchild tadult age_g cpl educ_g q5 hhown sex 
+fre race ychild works tchild tadult age_g cpl educ_g q5 hhown sex 
 sum thp* anwgt survey2 dchild clust_100 *wday *wend
 
 ************ Creation of Tables
-label var survey2 "Survey"
-table (age_g race) (survey2) [w=anwgt] if inlist(survey2,1,2,4), stat(mean thp_levy_rp_wday) ///
-                                                           stat(median thp_levy_rp_wday) ///
-                                                           stat(sd thp_levy_rp_wday) ///
-                                                           nototal nformat(%5.2f) 
-collect label levels result sd "Std.Dev.", modify
-                                                           
-table (race) (survey2) [w=anwgt] if inlist(survey2,1,2,5), stat(mean thp_levy_rp_wend) nototal nformat(%5.2f)
+**  This is a work around.
+capture program drop sumstat
+program sumstat, rclass
+    syntax varlist [aw] [if], [rowvar(varlist) colvar(varlist) ]
+    marksample touse
+    qui:levelsof `rowvar' if `touse', local(lrow)
+    qui:levelsof `colvar' if `touse', local(lcol)
+    local nrow:word count `lrow'
+    local ncol:word count `lcol'
+    tempname mean median sd 
+    matrix `mean' = J(`nrow',`ncol',.)
+    matrix `median' = J(`nrow',`ncol',.)
+    matrix `sd' = J(`nrow',`ncol',.)
+    local roweq `rowvar'
+    local ix =0
+    foreach i of local lrow {        
+        local ix =`ix'+1
+        local rowname `rowname'  `i'.`rowvar'
+        local jx = 0
+        foreach j of local lcol {
+            local jx =`jx'+1
+            qui:sum `varlist' if `touse' & `rowvar'==`i' & `colvar'==`j' [`weight'`exp'],d
+            matrix `mean'[`ix',`jx']  =r(mean)
+            matrix `median'[`ix',`jx']=r(p50)
+            matrix `sd'[`ix',`jx']    =r(sd)            
+        }
+    }
+    
+    // for colname
+
+    
+    mata:mean=st_matrix("`mean'"); mean=mean,mean[,(1,2)]:/mean[,3]*100;st_matrix("`mean'",mean)
+    mata:median=st_matrix("`median'"); median=median,median[,(1,2)]:/median[,3]*100;st_matrix("`median'",median)
+    mata:sd=st_matrix("`sd'"); sd=sd,sd[,(1,2)]:/sd[,3]*100;st_matrix("`sd'",sd)
+    
+    matrix rowname `mean'   = `rowname'
+    matrix rowname `median' = `rowname'
+    matrix rowname `sd'     = `rowname'
+    
+    matrix roweq `mean'   = `rowvar'
+    matrix roweq `median' = `rowvar'
+    matrix roweq `sd'     = `rowvar'
+    
+    if `:word 3 of `lcol''==4 {
+        matrix colname `mean' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekday" "CE:Int<br>%ATUS" "CE:Dia<br>%ATUS"
+        matrix colname `median' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekday" "CE:Int<br>%ATUS" "CE:Dia<br>%ATUS"
+        matrix colname `sd' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekday" "CE:Int<br>%ATUS" "CE:Dia<br>%ATUS"
+    }
+    else if `:word 3 of `lcol''==5 {
+        matrix colname `mean' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekend" "CE:Int<br>%ATUS" "CE:Dia<br>%ATUS"
+        matrix colname `median' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekend" "CE:Int<br>%ATUS" "CE:Dia<br>%ATUS"
+        matrix colname `sd' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekend" "CE:Int<br>%ATUS" "CE:Dia<br>%ATUS"
+    }
+    
+    matrix mean = `mean'
+    matrix median = `median'
+    matrix sd = `sd'
+
+    return matrix mean   = `mean'
+    return matrix median = `median'
+    return matrix sd     = `sd'
+end
 
 
-cd "finldoc"
-foreach i in rp sm mi1 mi2 mi3 mi4 mi5 {
-	qc_tables thp_levy_`i'_wday
-	putexcel set  CE_ATUS_Match, modify sheet(wkday_`i')
-	putexcel c6=matrix(fmean) ///
-			 k6=matrix(fmedian) ///
-			 s6=matrix(fsd)
-	putexcel close
-		 
+capture program drop sumbal
+program sumbal, rclass
+    syntax [aw] [if], [rowvar(varlist) colvar(varlist) ]
+    marksample touse
+    qui:levelsof `rowvar' if `touse', local(lrow)
+    qui:levelsof `colvar' if `touse', local(lcol)
+    local nrow:word count `lrow'
+    local ncol:word count `lcol'
+    tempname balance
+    qui:tab `rowvar' `colvar' if `touse' [`weight'`exp'], matcell(`balance')
+    mata:balance = st_matrix("`balance'");balance=balance:/colsum(balance)*100;balance = balance, balance[,(1,2)]:-balance[,3]
+    mata:st_matrix("`balance'",balance)
+    // for colname
+
+    foreach i of local lrow {        
+        local rowname `rowname'  `i'.`rowvar'
+    }
+    
+    matrix rowname `balance'   = `rowname'
+    matrix roweq `balance'   = `rowvar'
+
+    if `:word 3 of `lcol''==4 {
+        matrix colname `balance' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekday" "CE:Int &minus; ATUS" "CE:Dia &minus; ATUS"
+    }
+    else if `:word 3 of `lcol''==5 {
+        matrix colname `balance' = "CE<br>Interview" "CE<br>Diary" "ATUS<br>Weekend" "CE:Int &minus; ATUS" "CE:Dia &minus; ATUS"
+    }
+    
+    matrix balance = `balance'
+     return matrix balance   = `balance'
+ 
+end
+
+sumstat thp_levy_rp_wday if sex ==1 , rowvar(age_g) colvar(survey2)
+
+esttab matrix(sd, fmt(%5.2f %5.2f %5.2f %5.1f %5.1f)), md label nomtitle
+
+** combining variables
+capture program drop var_comb
+program var_comb
+    syntax varlist
+    gettoken v1 v2:varlist
+    local v2 = strtrim("`v2'")
+    egen `v1'_`v2' = group(`v1' `v2')
+    local lv1:variable label `v1'
+    local lv2:variable label `v2'
+    label var `v1'_`v2'  "`lv1' x `lv2'"
+    qui:levelsof `v1'_`v2', local(lv1v2)
+    foreach i of local lv1v2 {
+        sum `v1' if `v1'_`v2'==`i', meanonly
+        local ii = r(mean)
+        sum `v2' if `v1'_`v2'==`i', meanonly
+        local jj = r(mean)
+        label define `v1'_`v2' `i' "`:label (`v1') `ii'' x `:label (`v2') `jj''", modify        
+    }
+    label values `v1'_`v2' `v1'_`v2'
+    qui:compress `v1'_`v2'
+end
+
+** Combining All variables 
+local allvars race ychild works tchild tadult age_g cpl educ_g q5 hhown sex
+forvalues  i = 1/10 {
+    local i2 = `i'+1
+    forvalues j = `i2'/11 {
+        local v1:word `i' of `allvars'
+        local v2:word `j' of `allvars'
+        var_comb `v1' `v2'
+    }
 }
 
-foreach i in rp sm mi1 mi2 mi3 mi4 mi5 {
-	qc_tables thp_levy_`i'_wend
-	putexcel set CE_ATUS_Match, modify sheet(wkend_`i')
-	putexcel c6=matrix(fmean) ///
-			 k6=matrix(fmedian) ///
-			 s6=matrix(fsd)
-	putexcel close
+** Preparing to create all variables
+local allvars sex race ychild works tchild tadult age_g cpl educ_g q5 hhown 
+
+global allvars race ychild works tchild tadult age_g cpl educ_g q5 hhown sex
+forvalues  i = 1/10 {
+    local i2 = `i'+1
+    forvalues j = `i2'/11 {
+        local v1:word `i' of `allvars'
+        local v2:word `j' of `allvars'
+        global allvars $allvars     `v1'_`v2'
+    }
 }
-** Do the same for SUP
-********************************************************************************
-********************************************************************************
-tabstat thp_levy_sm_wday  [w=anwgt] if survey2==4,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=r(StatTotal)'
-tabstat thp_levy_rp_wday  [w=anwgt] if survey2==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_levy_mi1_wday [w=anwgt] if survey2==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_levy_sm_wday  [w=anwgt] if survey2==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
 
-tabstat thp_sup_sm_wday  [w=anwgt] if survey2==4 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_sup_rp_wday  [w=anwgt] if survey2==1 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_sup_mi1_wday [w=anwgt] if survey2==1 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_sup_sm_wday  [w=anwgt] if survey2==1 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
+foreach j in wday wend {
+    foreach h of global allvars {
+             if "`j'"=="wday" sumbal if survey2!=5 [aw=anwgt], rowvar(`h') colvar(survey2)
+        else if "`j'"=="wend" sumbal if survey2!=4 [aw=anwgt], rowvar(`h') colvar(survey2)
+         esttab matrix(balance, fmt(%5.2f %5.2f %5.2f %5.2f %5.2f)) ///
+         using balance_`h'_`j', ///
+         md label nomtitle replace
+        foreach i in rp sm mi1 {
+            sumstat thp_levy_`i'_`j' [aw=anwgt], rowvar(`h') colvar(survey2)
+            foreach ll  in mean median sd {
+                esttab matrix(`ll', fmt(%5.2f %5.2f %5.2f %5.2f %5.2f)) ///
+                 using `ll'_`h'_`j'_`i', ///
+                 md label nomtitle replace
+            }                  
+        }
+    }
+}    
 
+*************************
+** How to write a QMD
+** by rp sm mi1
+** By weekend Weekday
+** By weekend Weekday
+** Mean Median SD
 
-tabstat thp_levy_sm_wend  [w=anwgt] if survey2==5,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_levy_rp_wend  [w=anwgt] if survey2==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_levy_mi1_wend [w=anwgt] if survey2==1,stats(p10 p25 p50 p75 p90 mean sd)  save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_levy_sm_wend  [w=anwgt] if survey2==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
+** Make lists for ALL variables
 
-tabstat thp_sup_sm_wend  [w=anwgt] if survey2==5 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_sup_rp_wend  [w=anwgt] if survey2==1 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_sup_mi1_wend [w=anwgt] if survey2==1 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
-tabstat thp_sup_sm_wend  [w=anwgt] if survey2==1 & dchild==1,stats(p10 p25 p50 p75 p90 mean sd) save
-matrix trt=trt\r(StatTotal)'
+local allvar_once sex race ychild works tchild tadult age_g cpl educ_g q5 hhown 
+
+foreach i of local allvar_once {
+    global v`i'  `i'
+    
+    foreach j of local allvar_once {
+        if "`i'"!="`j'" {
+            capture confirm var `i'_`j'
+            if _rc == 0 global v`i' ${v`i'}  `i'_`j'
+            else        global v`i' ${v`i'}  `j'_`i'
+        }
+    }
+}
+
+rm _rp_wend.qmd
+mata: panel_begin="::: {.panel-tabset}"
+mata: panel_end  =":::"
+mata: 
+
+    fh = fopen("_rp_wend.qmd","w")
+    fclose(fh)
+end
+foreach var of global vsex {
+    mata: fh = fopen("_rp_wend.qmd","a")
+    mata: fh = fput(fh,"## `var' ") 
+    mata: fh = fput(fh,"## `var' ")     
+    mata: fclose(fh)
+}
+
+** Sex
+
 
 
 ** boxplots

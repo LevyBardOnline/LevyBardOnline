@@ -1,0 +1,4 @@
+
+. mata: printf("{{< include  `ll'_`h'_`j'_`i' >}}")
+{{< include  ___ >}}
+. log close

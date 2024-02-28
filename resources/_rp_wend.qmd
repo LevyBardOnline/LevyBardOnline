@@ -1,0 +1,41 @@
+sd
+ex _sex sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+sd
+## sex 
+## race_sex 
+## ychild_sex 
+## works_sex 
+## tchild_sex 
+## tadult_sex 
+## age_g_sex 
+## cpl_sex 
+## educ_g_sex 
+## q5_sex 
+## hhown_sex 
+## sex 
+## sex 
+## sex 
+## race_sex 
+## race_sex 
+## ychild_sex 
+## ychild_sex 
+## works_sex 
+## works_sex 
+## tchild_sex 
+## tchild_sex 
+## tadult_sex 
+## tadult_sex 
+## age_g_sex 
+## age_g_sex 
+## cpl_sex 
+## cpl_sex 

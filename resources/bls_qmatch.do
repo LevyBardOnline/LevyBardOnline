@@ -310,7 +310,18 @@ foreach i of local allvar_once {
 rm _rp_wend.qmd
 mata: panel_begin="::: {.panel-tabset}"
 mata: panel_end  =":::"
+
+.  file open myfile using example.txt, write
+
+. file write myfile "# asd" _n
+
+. file write myfile "## asd" _n
+
+. file close myfile
+
+
 mata: 
+
 
     fh = fopen("_rp_wend.qmd","w")
     fclose(fh)

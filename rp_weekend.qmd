@@ -1,0 +1,12 @@
+---
+title: Regression-Prediction
+subtitle: Weekend
+---
+
+This page contains data evaluating Regression-Prediction imputation method, comparing total hours dedicated to household production during Weekends. 
+
+This is done for various strata groups, as well as two-way interactions. One can evaluate the mean, median and standard deviation.
+
+{{< include resources/_rp_wend.qmd >}}
+
+

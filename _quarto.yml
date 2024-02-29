@@ -1,13 +1,15 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
 
 website:
   title: "**Levy Economics Institute**: Online Appendix"
   navbar:
     left:
       - href: index.qmd
-        text: Homes
+        text: Home
       - about.qmd
 
 format:

@@ -1,0 +1,12 @@
+---
+title: Multiple Imputation
+subtitle: Weekday
+---
+
+This page contains data evaluating Mutiple-imputation method, comparing total hours dedicated to household production during Weekdays. 
+
+This is done for various strata groups, as well as two-way interactions. One can evaluate the mean, median and standard deviation.
+
+{{< include resources/_mi1_wday.qmd >}}
+
+

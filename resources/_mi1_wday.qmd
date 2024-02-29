@@ -1,0 +1,2926 @@
+## Gender
+
+### Gender
+
+{{< include resources/balance_sex_wday.md >}}
+:Distribution Balance {#tbl-bsexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnsexwdaymi1}
+
+## Median 
+
+{{< include resources/median_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdsexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdsexwdaymi1}
+
+::: 
+
+### Race x Gender
+
+{{< include resources/balance_race_sex_wday.md >}}
+:Distribution Balance {#tbl-brace_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_sexwdaymi1}
+
+::: 
+
+### Young Children x Gender
+
+{{< include resources/balance_ychild_sex_wday.md >}}
+:Distribution Balance {#tbl-bychild_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_sexwdaymi1}
+
+::: 
+
+### Working Status x Gender
+
+{{< include resources/balance_works_sex_wday.md >}}
+:Distribution Balance {#tbl-bworks_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_sexwdaymi1}
+
+::: 
+
+### No of Children x Gender
+
+{{< include resources/balance_tchild_sex_wday.md >}}
+:Distribution Balance {#tbl-btchild_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_sexwdaymi1}
+
+::: 
+
+### No of Adults x Gender
+
+{{< include resources/balance_tadult_sex_wday.md >}}
+:Distribution Balance {#tbl-btadult_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_sexwdaymi1}
+
+::: 
+
+### Age group x Gender
+
+{{< include resources/balance_age_g_sex_wday.md >}}
+:Distribution Balance {#tbl-bage_g_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_sexwdaymi1}
+
+::: 
+
+### Single/Couple x Gender
+
+{{< include resources/balance_cpl_sex_wday.md >}}
+:Distribution Balance {#tbl-bcpl_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_sexwdaymi1}
+
+::: 
+
+### Education Level x Gender
+
+{{< include resources/balance_educ_g_sex_wday.md >}}
+:Distribution Balance {#tbl-beduc_g_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_g_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_g_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_g_sexwdaymi1}
+
+::: 
+
+### Income Quantile x Gender
+
+{{< include resources/balance_q5_sex_wday.md >}}
+:Distribution Balance {#tbl-bq5_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_q5_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnq5_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_q5_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdq5_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_q5_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdq5_sexwdaymi1}
+
+::: 
+
+### Home Ownership x Gender
+
+{{< include resources/balance_hhown_sex_wday.md >}}
+:Distribution Balance {#tbl-bhhown_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_hhown_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnhhown_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_hhown_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdhhown_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_hhown_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdhhown_sexwdaymi1}
+
+::: 
+
+## Race
+
+### Race
+
+{{< include resources/balance_race_wday.md >}}
+:Distribution Balance {#tbl-bracewdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnracewdaymi1}
+
+## Median 
+
+{{< include resources/median_race_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdracewdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdracewdaymi1}
+
+::: 
+
+### Race x Gender
+
+{{< include resources/balance_race_sex_wday.md >}}
+:Distribution Balance {#tbl-brace_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_sexwdaymi1}
+
+::: 
+
+### Race x Young Children
+
+{{< include resources/balance_race_ychild_wday.md >}}
+:Distribution Balance {#tbl-brace_ychildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_ychild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_ychildwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_ychild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_ychildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_ychild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_ychildwdaymi1}
+
+::: 
+
+### Race x Working Status
+
+{{< include resources/balance_race_works_wday.md >}}
+:Distribution Balance {#tbl-brace_workswdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_works_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_workswdaymi1}
+
+## Median 
+
+{{< include resources/median_race_works_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_workswdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_works_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_workswdaymi1}
+
+::: 
+
+### Race x No of Children
+
+{{< include resources/balance_race_tchild_wday.md >}}
+:Distribution Balance {#tbl-brace_tchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_tchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_tchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_tchildwdaymi1}
+
+::: 
+
+### Race x No of Adults
+
+{{< include resources/balance_race_tadult_wday.md >}}
+:Distribution Balance {#tbl-brace_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_tadultwdaymi1}
+
+::: 
+
+### Race x Age group
+
+{{< include resources/balance_race_age_g_wday.md >}}
+:Distribution Balance {#tbl-brace_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_age_gwdaymi1}
+
+::: 
+
+### Race x Single/Couple
+
+{{< include resources/balance_race_cpl_wday.md >}}
+:Distribution Balance {#tbl-brace_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_cplwdaymi1}
+
+::: 
+
+### Race x Education Level
+
+{{< include resources/balance_race_educ_g_wday.md >}}
+:Distribution Balance {#tbl-brace_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_educ_gwdaymi1}
+
+::: 
+
+### Race x Income Quantile
+
+{{< include resources/balance_race_q5_wday.md >}}
+:Distribution Balance {#tbl-brace_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_race_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_q5wdaymi1}
+
+::: 
+
+### Race x Home Ownership
+
+{{< include resources/balance_race_hhown_wday.md >}}
+:Distribution Balance {#tbl-brace_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_hhownwdaymi1}
+
+::: 
+
+## Young Children
+
+### Young Children
+
+{{< include resources/balance_ychild_wday.md >}}
+:Distribution Balance {#tbl-bychildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychildwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychildwdaymi1}
+
+::: 
+
+### Young Children x Gender
+
+{{< include resources/balance_ychild_sex_wday.md >}}
+:Distribution Balance {#tbl-bychild_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_sexwdaymi1}
+
+::: 
+
+### Race x Young Children
+
+{{< include resources/balance_race_ychild_wday.md >}}
+:Distribution Balance {#tbl-brace_ychildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_ychild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_ychildwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_ychild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_ychildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_ychild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_ychildwdaymi1}
+
+::: 
+
+### Young Children x Working Status
+
+{{< include resources/balance_ychild_works_wday.md >}}
+:Distribution Balance {#tbl-bychild_workswdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_works_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_workswdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_works_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_workswdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_works_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_workswdaymi1}
+
+::: 
+
+### Young Children x No of Children
+
+{{< include resources/balance_ychild_tchild_wday.md >}}
+:Distribution Balance {#tbl-bychild_tchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_tchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_tchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_tchildwdaymi1}
+
+::: 
+
+### Young Children x No of Adults
+
+{{< include resources/balance_ychild_tadult_wday.md >}}
+:Distribution Balance {#tbl-bychild_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_tadultwdaymi1}
+
+::: 
+
+### Young Children x Age group
+
+{{< include resources/balance_ychild_age_g_wday.md >}}
+:Distribution Balance {#tbl-bychild_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_age_gwdaymi1}
+
+::: 
+
+### Young Children x Single/Couple
+
+{{< include resources/balance_ychild_cpl_wday.md >}}
+:Distribution Balance {#tbl-bychild_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_cplwdaymi1}
+
+::: 
+
+### Young Children x Education Level
+
+{{< include resources/balance_ychild_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bychild_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_educ_gwdaymi1}
+
+::: 
+
+### Young Children x Income Quantile
+
+{{< include resources/balance_ychild_q5_wday.md >}}
+:Distribution Balance {#tbl-bychild_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_q5wdaymi1}
+
+::: 
+
+### Young Children x Home Ownership
+
+{{< include resources/balance_ychild_hhown_wday.md >}}
+:Distribution Balance {#tbl-bychild_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_hhownwdaymi1}
+
+::: 
+
+## Working Status
+
+### Working Status
+
+{{< include resources/balance_works_wday.md >}}
+:Distribution Balance {#tbl-bworkswdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworkswdaymi1}
+
+## Median 
+
+{{< include resources/median_works_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworkswdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworkswdaymi1}
+
+::: 
+
+### Working Status x Gender
+
+{{< include resources/balance_works_sex_wday.md >}}
+:Distribution Balance {#tbl-bworks_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_sexwdaymi1}
+
+::: 
+
+### Race x Working Status
+
+{{< include resources/balance_race_works_wday.md >}}
+:Distribution Balance {#tbl-brace_workswdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_works_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_workswdaymi1}
+
+## Median 
+
+{{< include resources/median_race_works_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_workswdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_works_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_workswdaymi1}
+
+::: 
+
+### Young Children x Working Status
+
+{{< include resources/balance_ychild_works_wday.md >}}
+:Distribution Balance {#tbl-bychild_workswdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_works_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_workswdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_works_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_workswdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_works_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_workswdaymi1}
+
+::: 
+
+### Working Status x No of Children
+
+{{< include resources/balance_works_tchild_wday.md >}}
+:Distribution Balance {#tbl-bworks_tchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_tchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_tchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_tchildwdaymi1}
+
+::: 
+
+### Working Status x No of Adults
+
+{{< include resources/balance_works_tadult_wday.md >}}
+:Distribution Balance {#tbl-bworks_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_tadultwdaymi1}
+
+::: 
+
+### Working Status x Age group
+
+{{< include resources/balance_works_age_g_wday.md >}}
+:Distribution Balance {#tbl-bworks_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_age_gwdaymi1}
+
+::: 
+
+### Working Status x Single/Couple
+
+{{< include resources/balance_works_cpl_wday.md >}}
+:Distribution Balance {#tbl-bworks_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_cplwdaymi1}
+
+::: 
+
+### Working Status x Education Level
+
+{{< include resources/balance_works_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bworks_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_educ_gwdaymi1}
+
+::: 
+
+### Working Status x Income Quantile
+
+{{< include resources/balance_works_q5_wday.md >}}
+:Distribution Balance {#tbl-bworks_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_works_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_q5wdaymi1}
+
+::: 
+
+### Working Status x Home Ownership
+
+{{< include resources/balance_works_hhown_wday.md >}}
+:Distribution Balance {#tbl-bworks_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_hhownwdaymi1}
+
+::: 
+
+## No of Children
+
+### No of Children
+
+{{< include resources/balance_tchild_wday.md >}}
+:Distribution Balance {#tbl-btchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchildwdaymi1}
+
+::: 
+
+### No of Children x Gender
+
+{{< include resources/balance_tchild_sex_wday.md >}}
+:Distribution Balance {#tbl-btchild_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_sexwdaymi1}
+
+::: 
+
+### Race x No of Children
+
+{{< include resources/balance_race_tchild_wday.md >}}
+:Distribution Balance {#tbl-brace_tchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_tchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_tchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_tchildwdaymi1}
+
+::: 
+
+### Young Children x No of Children
+
+{{< include resources/balance_ychild_tchild_wday.md >}}
+:Distribution Balance {#tbl-bychild_tchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_tchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_tchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_tchildwdaymi1}
+
+::: 
+
+### Working Status x No of Children
+
+{{< include resources/balance_works_tchild_wday.md >}}
+:Distribution Balance {#tbl-bworks_tchildwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_tchild_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_tchildwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_tchild_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_tchildwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_tchild_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_tchildwdaymi1}
+
+::: 
+
+### No of Children x No of Adults
+
+{{< include resources/balance_tchild_tadult_wday.md >}}
+:Distribution Balance {#tbl-btchild_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_tadultwdaymi1}
+
+::: 
+
+### No of Children x Age group
+
+{{< include resources/balance_tchild_age_g_wday.md >}}
+:Distribution Balance {#tbl-btchild_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_age_gwdaymi1}
+
+::: 
+
+### No of Children x Single/Couple
+
+{{< include resources/balance_tchild_cpl_wday.md >}}
+:Distribution Balance {#tbl-btchild_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_cplwdaymi1}
+
+::: 
+
+### No of Children x Education Level
+
+{{< include resources/balance_tchild_educ_g_wday.md >}}
+:Distribution Balance {#tbl-btchild_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_educ_gwdaymi1}
+
+::: 
+
+### No of Children x Income Quantile
+
+{{< include resources/balance_tchild_q5_wday.md >}}
+:Distribution Balance {#tbl-btchild_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_q5wdaymi1}
+
+::: 
+
+### No of Children x Home Ownership
+
+{{< include resources/balance_tchild_hhown_wday.md >}}
+:Distribution Balance {#tbl-btchild_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_hhownwdaymi1}
+
+::: 
+
+## No of Adults
+
+### No of Adults
+
+{{< include resources/balance_tadult_wday.md >}}
+:Distribution Balance {#tbl-btadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadultwdaymi1}
+
+::: 
+
+### No of Adults x Gender
+
+{{< include resources/balance_tadult_sex_wday.md >}}
+:Distribution Balance {#tbl-btadult_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_sexwdaymi1}
+
+::: 
+
+### Race x No of Adults
+
+{{< include resources/balance_race_tadult_wday.md >}}
+:Distribution Balance {#tbl-brace_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_tadultwdaymi1}
+
+::: 
+
+### Young Children x No of Adults
+
+{{< include resources/balance_ychild_tadult_wday.md >}}
+:Distribution Balance {#tbl-bychild_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_tadultwdaymi1}
+
+::: 
+
+### Working Status x No of Adults
+
+{{< include resources/balance_works_tadult_wday.md >}}
+:Distribution Balance {#tbl-bworks_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_tadultwdaymi1}
+
+::: 
+
+### No of Children x No of Adults
+
+{{< include resources/balance_tchild_tadult_wday.md >}}
+:Distribution Balance {#tbl-btchild_tadultwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_tadult_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_tadultwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_tadult_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_tadultwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_tadult_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_tadultwdaymi1}
+
+::: 
+
+### No of Adults x Age group
+
+{{< include resources/balance_tadult_age_g_wday.md >}}
+:Distribution Balance {#tbl-btadult_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_age_gwdaymi1}
+
+::: 
+
+### No of Adults x Single/Couple
+
+{{< include resources/balance_tadult_cpl_wday.md >}}
+:Distribution Balance {#tbl-btadult_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_cplwdaymi1}
+
+::: 
+
+### No of Adults x Education Level
+
+{{< include resources/balance_tadult_educ_g_wday.md >}}
+:Distribution Balance {#tbl-btadult_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_educ_gwdaymi1}
+
+::: 
+
+### No of Adults x Income Quantile
+
+{{< include resources/balance_tadult_q5_wday.md >}}
+:Distribution Balance {#tbl-btadult_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_q5wdaymi1}
+
+::: 
+
+### No of Adults x Home Ownership
+
+{{< include resources/balance_tadult_hhown_wday.md >}}
+:Distribution Balance {#tbl-btadult_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_hhownwdaymi1}
+
+::: 
+
+## Age group
+
+### Age group
+
+{{< include resources/balance_age_g_wday.md >}}
+:Distribution Balance {#tbl-bage_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_gwdaymi1}
+
+::: 
+
+### Age group x Gender
+
+{{< include resources/balance_age_g_sex_wday.md >}}
+:Distribution Balance {#tbl-bage_g_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_sexwdaymi1}
+
+::: 
+
+### Race x Age group
+
+{{< include resources/balance_race_age_g_wday.md >}}
+:Distribution Balance {#tbl-brace_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_age_gwdaymi1}
+
+::: 
+
+### Young Children x Age group
+
+{{< include resources/balance_ychild_age_g_wday.md >}}
+:Distribution Balance {#tbl-bychild_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_age_gwdaymi1}
+
+::: 
+
+### Working Status x Age group
+
+{{< include resources/balance_works_age_g_wday.md >}}
+:Distribution Balance {#tbl-bworks_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_age_gwdaymi1}
+
+::: 
+
+### No of Children x Age group
+
+{{< include resources/balance_tchild_age_g_wday.md >}}
+:Distribution Balance {#tbl-btchild_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_age_gwdaymi1}
+
+::: 
+
+### No of Adults x Age group
+
+{{< include resources/balance_tadult_age_g_wday.md >}}
+:Distribution Balance {#tbl-btadult_age_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_age_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_age_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_age_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_age_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_age_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_age_gwdaymi1}
+
+::: 
+
+### Age group x Single/Couple
+
+{{< include resources/balance_age_g_cpl_wday.md >}}
+:Distribution Balance {#tbl-bage_g_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_cplwdaymi1}
+
+::: 
+
+### Age group x Education Level
+
+{{< include resources/balance_age_g_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bage_g_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_educ_gwdaymi1}
+
+::: 
+
+### Age group x Income Quantile
+
+{{< include resources/balance_age_g_q5_wday.md >}}
+:Distribution Balance {#tbl-bage_g_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_q5wdaymi1}
+
+::: 
+
+### Age group x Home Ownership
+
+{{< include resources/balance_age_g_hhown_wday.md >}}
+:Distribution Balance {#tbl-bage_g_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_hhownwdaymi1}
+
+::: 
+
+## Single/Couple
+
+### Single/Couple
+
+{{< include resources/balance_cpl_wday.md >}}
+:Distribution Balance {#tbl-bcplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncplwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcplwdaymi1}
+
+::: 
+
+### Single/Couple x Gender
+
+{{< include resources/balance_cpl_sex_wday.md >}}
+:Distribution Balance {#tbl-bcpl_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_sexwdaymi1}
+
+::: 
+
+### Race x Single/Couple
+
+{{< include resources/balance_race_cpl_wday.md >}}
+:Distribution Balance {#tbl-brace_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_cplwdaymi1}
+
+::: 
+
+### Young Children x Single/Couple
+
+{{< include resources/balance_ychild_cpl_wday.md >}}
+:Distribution Balance {#tbl-bychild_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_cplwdaymi1}
+
+::: 
+
+### Working Status x Single/Couple
+
+{{< include resources/balance_works_cpl_wday.md >}}
+:Distribution Balance {#tbl-bworks_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_cplwdaymi1}
+
+::: 
+
+### No of Children x Single/Couple
+
+{{< include resources/balance_tchild_cpl_wday.md >}}
+:Distribution Balance {#tbl-btchild_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_cplwdaymi1}
+
+::: 
+
+### No of Adults x Single/Couple
+
+{{< include resources/balance_tadult_cpl_wday.md >}}
+:Distribution Balance {#tbl-btadult_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_cplwdaymi1}
+
+::: 
+
+### Age group x Single/Couple
+
+{{< include resources/balance_age_g_cpl_wday.md >}}
+:Distribution Balance {#tbl-bage_g_cplwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_cpl_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_cplwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_cpl_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_cplwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_cpl_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_cplwdaymi1}
+
+::: 
+
+### Single/Couple x Education Level
+
+{{< include resources/balance_cpl_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bcpl_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_educ_gwdaymi1}
+
+::: 
+
+### Single/Couple x Income Quantile
+
+{{< include resources/balance_cpl_q5_wday.md >}}
+:Distribution Balance {#tbl-bcpl_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_q5wdaymi1}
+
+::: 
+
+### Single/Couple x Home Ownership
+
+{{< include resources/balance_cpl_hhown_wday.md >}}
+:Distribution Balance {#tbl-bcpl_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_hhownwdaymi1}
+
+::: 
+
+## Education Level
+
+### Education Level
+
+{{< include resources/balance_educ_g_wday.md >}}
+:Distribution Balance {#tbl-beduc_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_gwdaymi1}
+
+::: 
+
+### Education Level x Gender
+
+{{< include resources/balance_educ_g_sex_wday.md >}}
+:Distribution Balance {#tbl-beduc_g_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_g_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_g_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_g_sexwdaymi1}
+
+::: 
+
+### Race x Education Level
+
+{{< include resources/balance_race_educ_g_wday.md >}}
+:Distribution Balance {#tbl-brace_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_educ_gwdaymi1}
+
+::: 
+
+### Young Children x Education Level
+
+{{< include resources/balance_ychild_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bychild_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_educ_gwdaymi1}
+
+::: 
+
+### Working Status x Education Level
+
+{{< include resources/balance_works_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bworks_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_educ_gwdaymi1}
+
+::: 
+
+### No of Children x Education Level
+
+{{< include resources/balance_tchild_educ_g_wday.md >}}
+:Distribution Balance {#tbl-btchild_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_educ_gwdaymi1}
+
+::: 
+
+### No of Adults x Education Level
+
+{{< include resources/balance_tadult_educ_g_wday.md >}}
+:Distribution Balance {#tbl-btadult_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_educ_gwdaymi1}
+
+::: 
+
+### Age group x Education Level
+
+{{< include resources/balance_age_g_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bage_g_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_educ_gwdaymi1}
+
+::: 
+
+### Single/Couple x Education Level
+
+{{< include resources/balance_cpl_educ_g_wday.md >}}
+:Distribution Balance {#tbl-bcpl_educ_gwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_educ_g_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_educ_gwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_educ_g_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_educ_gwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_educ_g_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_educ_gwdaymi1}
+
+::: 
+
+### Education Level x Income Quantile
+
+{{< include resources/balance_educ_g_q5_wday.md >}}
+:Distribution Balance {#tbl-beduc_g_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_g_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_g_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_g_q5wdaymi1}
+
+::: 
+
+### Education Level x Home Ownership
+
+{{< include resources/balance_educ_g_hhown_wday.md >}}
+:Distribution Balance {#tbl-beduc_g_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_g_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_g_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_g_hhownwdaymi1}
+
+::: 
+
+## Income Quantile
+
+### Income Quantile
+
+{{< include resources/balance_q5_wday.md >}}
+:Distribution Balance {#tbl-bq5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnq5wdaymi1}
+
+## Median 
+
+{{< include resources/median_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdq5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdq5wdaymi1}
+
+::: 
+
+### Income Quantile x Gender
+
+{{< include resources/balance_q5_sex_wday.md >}}
+:Distribution Balance {#tbl-bq5_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_q5_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnq5_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_q5_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdq5_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_q5_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdq5_sexwdaymi1}
+
+::: 
+
+### Race x Income Quantile
+
+{{< include resources/balance_race_q5_wday.md >}}
+:Distribution Balance {#tbl-brace_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_race_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_q5wdaymi1}
+
+::: 
+
+### Young Children x Income Quantile
+
+{{< include resources/balance_ychild_q5_wday.md >}}
+:Distribution Balance {#tbl-bychild_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_q5wdaymi1}
+
+::: 
+
+### Working Status x Income Quantile
+
+{{< include resources/balance_works_q5_wday.md >}}
+:Distribution Balance {#tbl-bworks_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_works_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_q5wdaymi1}
+
+::: 
+
+### No of Children x Income Quantile
+
+{{< include resources/balance_tchild_q5_wday.md >}}
+:Distribution Balance {#tbl-btchild_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_q5wdaymi1}
+
+::: 
+
+### No of Adults x Income Quantile
+
+{{< include resources/balance_tadult_q5_wday.md >}}
+:Distribution Balance {#tbl-btadult_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_q5wdaymi1}
+
+::: 
+
+### Age group x Income Quantile
+
+{{< include resources/balance_age_g_q5_wday.md >}}
+:Distribution Balance {#tbl-bage_g_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_q5wdaymi1}
+
+::: 
+
+### Single/Couple x Income Quantile
+
+{{< include resources/balance_cpl_q5_wday.md >}}
+:Distribution Balance {#tbl-bcpl_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_q5wdaymi1}
+
+::: 
+
+### Education Level x Income Quantile
+
+{{< include resources/balance_educ_g_q5_wday.md >}}
+:Distribution Balance {#tbl-beduc_g_q5wdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_q5_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_g_q5wdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_q5_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_g_q5wdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_q5_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_g_q5wdaymi1}
+
+::: 
+
+### Income Quantile x Home Ownership
+
+{{< include resources/balance_q5_hhown_wday.md >}}
+:Distribution Balance {#tbl-bq5_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_q5_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnq5_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_q5_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdq5_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_q5_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdq5_hhownwdaymi1}
+
+::: 
+
+## Home Ownership
+
+### Home Ownership
+
+{{< include resources/balance_hhown_wday.md >}}
+:Distribution Balance {#tbl-bhhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnhhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdhhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdhhownwdaymi1}
+
+::: 
+
+### Home Ownership x Gender
+
+{{< include resources/balance_hhown_sex_wday.md >}}
+:Distribution Balance {#tbl-bhhown_sexwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_hhown_sex_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnhhown_sexwdaymi1}
+
+## Median 
+
+{{< include resources/median_hhown_sex_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdhhown_sexwdaymi1}
+
+## SD 
+
+{{< include resources/sd_hhown_sex_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdhhown_sexwdaymi1}
+
+::: 
+
+### Race x Home Ownership
+
+{{< include resources/balance_race_hhown_wday.md >}}
+:Distribution Balance {#tbl-brace_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_race_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnrace_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_race_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdrace_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_race_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdrace_hhownwdaymi1}
+
+::: 
+
+### Young Children x Home Ownership
+
+{{< include resources/balance_ychild_hhown_wday.md >}}
+:Distribution Balance {#tbl-bychild_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_ychild_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnychild_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_ychild_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdychild_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_ychild_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdychild_hhownwdaymi1}
+
+::: 
+
+### Working Status x Home Ownership
+
+{{< include resources/balance_works_hhown_wday.md >}}
+:Distribution Balance {#tbl-bworks_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_works_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnworks_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_works_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdworks_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_works_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdworks_hhownwdaymi1}
+
+::: 
+
+### No of Children x Home Ownership
+
+{{< include resources/balance_tchild_hhown_wday.md >}}
+:Distribution Balance {#tbl-btchild_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tchild_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntchild_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_tchild_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtchild_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tchild_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtchild_hhownwdaymi1}
+
+::: 
+
+### No of Adults x Home Ownership
+
+{{< include resources/balance_tadult_hhown_wday.md >}}
+:Distribution Balance {#tbl-btadult_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_tadult_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mntadult_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_tadult_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdtadult_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_tadult_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdtadult_hhownwdaymi1}
+
+::: 
+
+### Age group x Home Ownership
+
+{{< include resources/balance_age_g_hhown_wday.md >}}
+:Distribution Balance {#tbl-bage_g_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_age_g_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnage_g_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_age_g_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdage_g_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_age_g_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdage_g_hhownwdaymi1}
+
+::: 
+
+### Single/Couple x Home Ownership
+
+{{< include resources/balance_cpl_hhown_wday.md >}}
+:Distribution Balance {#tbl-bcpl_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_cpl_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mncpl_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_cpl_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdcpl_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_cpl_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdcpl_hhownwdaymi1}
+
+::: 
+
+### Education Level x Home Ownership
+
+{{< include resources/balance_educ_g_hhown_wday.md >}}
+:Distribution Balance {#tbl-beduc_g_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_educ_g_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mneduc_g_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_educ_g_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdeduc_g_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_educ_g_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdeduc_g_hhownwdaymi1}
+
+::: 
+
+### Income Quantile x Home Ownership
+
+{{< include resources/balance_q5_hhown_wday.md >}}
+:Distribution Balance {#tbl-bq5_hhownwdaymi1}
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/mean_q5_hhown_wday_mi1.md >}}
+:Match Quality: Mean {#tbl-mnq5_hhownwdaymi1}
+
+## Median 
+
+{{< include resources/median_q5_hhown_wday_mi1.md >}}
+:Match Quality: Median {#tbl-mdq5_hhownwdaymi1}
+
+## SD 
+
+{{< include resources/sd_q5_hhown_wday_mi1.md >}}
+:Match Quality: Std Dev {#tbl-sdq5_hhownwdaymi1}
+
+::: 
+

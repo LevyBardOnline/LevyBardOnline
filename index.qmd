@@ -1,8 +1,34 @@
 ---
-Title: "Online Tables and Figures"
+title: "Online Tables and Figures"
 ---
 
+This is site provides access to tables and figures that can be used to evaluate the Matching Quality of the Imputation methods used for 
+adding time use into the Consumer Expenditure Survey.
 
-This is site aims to provide access to the Online tables and figures for Levy Institute papers and reports.
+This is organized by the imputation method used and if the data corresponds to the Weekday vs Weekend data.
+
+## Regression Prediction
+
+- Weekday
+    - [Tables](rp_weekday.qmd)
+   
+- Weekend
+    - [Tables](rp_weekend.qmd)
+     
+## Multiple Imputation
+
+- Weekday
+    - [Tables](mi_weekday.qmd)
+   
+- Weekend
+    - [Tables](mi_weekend.qmd)
+  
+## Statistical Matching
+
+- Weekday
+    - [Tables](sm_weekday.qmd)
+   
+- Weekend
+    - [Tables](sm_weekend.qmd)
 
 

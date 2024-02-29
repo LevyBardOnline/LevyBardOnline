@@ -4,6 +4,9 @@ project:
   render:
     - "*.qmd"
 
+execute:
+  freeze: auto  # re-render only when source changes
+  
 website:
   title: "**Levy Economics Institute**: Online Appendix"
   navbar:
@@ -18,5 +21,5 @@ format:
     css: styles.css
     toc: true
 
-
+ 
 

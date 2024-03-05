@@ -1,0 +1,216 @@
+## Work x Gender x Child
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Work x Gender x Child](resources\fig_mi1_wend_wsc2.png){#fig-fwsc2wendmi1}
+
+## Men 
+
+![Box Plot for Work x Gender x Child: Men](resources\fig_mi1_wend_wsc2_m.png){#fig-fwsc2wendmi1m}
+
+## Women 
+
+![Box Plot for Work x Gender x Child: Women](resources\fig_mi1_wend_wsc2_f.png){#fig-fwsc2wendmi1w}
+
+::: 
+
+## Gender
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Gender](resources\fig_mi1_wend_sex.png){#fig-fsexwendmi1}
+
+## Men 
+
+![Box Plot for Gender: Men](resources\fig_mi1_wend_sex_m.png){#fig-fsexwendmi1m}
+
+## Women 
+
+![Box Plot for Gender: Women](resources\fig_mi1_wend_sex_f.png){#fig-fsexwendmi1w}
+
+::: 
+
+## Race
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Race](resources\fig_mi1_wend_race.png){#fig-fracewendmi1}
+
+## Men 
+
+![Box Plot for Race: Men](resources\fig_mi1_wend_race_m.png){#fig-fracewendmi1m}
+
+## Women 
+
+![Box Plot for Race: Women](resources\fig_mi1_wend_race_f.png){#fig-fracewendmi1w}
+
+::: 
+
+## Young Children
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Young Children](resources\fig_mi1_wend_ychild.png){#fig-fychildwendmi1}
+
+## Men 
+
+![Box Plot for Young Children: Men](resources\fig_mi1_wend_ychild_m.png){#fig-fychildwendmi1m}
+
+## Women 
+
+![Box Plot for Young Children: Women](resources\fig_mi1_wend_ychild_f.png){#fig-fychildwendmi1w}
+
+::: 
+
+## Working Status
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Working Status](resources\fig_mi1_wend_works.png){#fig-fworkswendmi1}
+
+## Men 
+
+![Box Plot for Working Status: Men](resources\fig_mi1_wend_works_m.png){#fig-fworkswendmi1m}
+
+## Women 
+
+![Box Plot for Working Status: Women](resources\fig_mi1_wend_works_f.png){#fig-fworkswendmi1w}
+
+::: 
+
+## No of Children
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for No of Children](resources\fig_mi1_wend_tchild.png){#fig-ftchildwendmi1}
+
+## Men 
+
+![Box Plot for No of Children: Men](resources\fig_mi1_wend_tchild_m.png){#fig-ftchildwendmi1m}
+
+## Women 
+
+![Box Plot for No of Children: Women](resources\fig_mi1_wend_tchild_f.png){#fig-ftchildwendmi1w}
+
+::: 
+
+## No of Adults
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for No of Adults](resources\fig_mi1_wend_tadult.png){#fig-ftadultwendmi1}
+
+## Men 
+
+![Box Plot for No of Adults: Men](resources\fig_mi1_wend_tadult_m.png){#fig-ftadultwendmi1m}
+
+## Women 
+
+![Box Plot for No of Adults: Women](resources\fig_mi1_wend_tadult_f.png){#fig-ftadultwendmi1w}
+
+::: 
+
+## Age group
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Age group](resources\fig_mi1_wend_age_g.png){#fig-fage_gwendmi1}
+
+## Men 
+
+![Box Plot for Age group: Men](resources\fig_mi1_wend_age_g_m.png){#fig-fage_gwendmi1m}
+
+## Women 
+
+![Box Plot for Age group: Women](resources\fig_mi1_wend_age_g_f.png){#fig-fage_gwendmi1w}
+
+::: 
+
+## Single/Couple
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Single/Couple](resources\fig_mi1_wend_cpl.png){#fig-fcplwendmi1}
+
+## Men 
+
+![Box Plot for Single/Couple: Men](resources\fig_mi1_wend_cpl_m.png){#fig-fcplwendmi1m}
+
+## Women 
+
+![Box Plot for Single/Couple: Women](resources\fig_mi1_wend_cpl_f.png){#fig-fcplwendmi1w}
+
+::: 
+
+## Education Level
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Education Level](resources\fig_mi1_wend_educ_g.png){#fig-feduc_gwendmi1}
+
+## Men 
+
+![Box Plot for Education Level: Men](resources\fig_mi1_wend_educ_g_m.png){#fig-feduc_gwendmi1m}
+
+## Women 
+
+![Box Plot for Education Level: Women](resources\fig_mi1_wend_educ_g_f.png){#fig-feduc_gwendmi1w}
+
+::: 
+
+## Income Quantile
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Income Quantile](resources\fig_mi1_wend_q5.png){#fig-fq5wendmi1}
+
+## Men 
+
+![Box Plot for Income Quantile: Men](resources\fig_mi1_wend_q5_m.png){#fig-fq5wendmi1m}
+
+## Women 
+
+![Box Plot for Income Quantile: Women](resources\fig_mi1_wend_q5_f.png){#fig-fq5wendmi1w}
+
+::: 
+
+## Home Ownership
+
+::: {.panel-tabset} 
+
+## Overall 
+
+![Box Plot for Home Ownership](resources\fig_mi1_wend_hhown.png){#fig-fhhownwendmi1}
+
+## Men 
+
+![Box Plot for Home Ownership: Men](resources\fig_mi1_wend_hhown_m.png){#fig-fhhownwendmi1m}
+
+## Women 
+
+![Box Plot for Home Ownership: Women](resources\fig_mi1_wend_hhown_f.png){#fig-fhhownwendmi1w}
+
+::: 
+

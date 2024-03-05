@@ -1,0 +1,12 @@
+---
+title: Statistical Matching
+subtitle: Weekday
+---
+
+This page contains Box plots evaluating Statistical Matching method, comparing the distribution of total hours dedicated to household production during Weekdays. 
+
+This is done for main strata groups, and separate for men and women. 
+
+{{< include resources/_fig_sm_wday.qmd >}}
+
+

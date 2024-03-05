@@ -11,24 +11,30 @@ This is organized by the imputation method used and if the data corresponds to t
 
 - Weekday
     - [Tables](rp_weekday.qmd)
+    - [Figures](rp_weekday_fig.qmd)
    
 - Weekend
     - [Tables](rp_weekend.qmd)
-     
+    - [Figures](rp_weekend_fig.qmd)
+      
 ## Multiple Imputation
 
 - Weekday
     - [Tables](mi_weekday.qmd)
+    - [Figures](mi_weekday_fig.qmd)
    
 - Weekend
     - [Tables](mi_weekend.qmd)
+    - [Figures](mi_weekend_fig.qmd)
   
 ## Statistical Matching
 
 - Weekday
     - [Tables](sm_weekday.qmd)
+    - [Figures](sm_weekday_fig.qmd)
    
 - Weekend
     - [Tables](sm_weekend.qmd)
+    - [Figures](sm_weekend_fig.qmd)
 
 

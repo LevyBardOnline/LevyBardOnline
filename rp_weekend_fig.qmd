@@ -1,0 +1,12 @@
+---
+title: Regression-Prediction
+subtitle: Weekend
+---
+
+This page contains Box plots evaluating Regression-Prediction method, comparing the distribution of total hours dedicated to household production during Weekends. 
+
+This is done for main strata groups, and separate for men and women. 
+
+{{< include resources/_fig_rp_wend.qmd >}}
+
+

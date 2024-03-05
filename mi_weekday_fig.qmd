@@ -1,0 +1,12 @@
+---
+title: Multiple Imputation
+subtitle: Weekday
+---
+
+This page contains Box plots evaluating Multiple Imputation method, comparing the distribution of total hours dedicated to household production during Weekday. 
+
+This is done for main strata groups, and separate for men and women. 
+
+{{< include resources/_fig_mi1_wday.qmd >}}
+
+

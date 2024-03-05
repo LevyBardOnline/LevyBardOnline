@@ -265,7 +265,7 @@ forvalues  i = 1/10 {
         global allvars $allvars     `v1'_`v2'
     }
 }
-
+ 
 foreach j in wday wend {
     foreach h of global allvars {
              if "`j'"=="wday" sumbal if survey2!=5 [aw=anwgt], rowvar(`h') colvar(survey2)
@@ -307,7 +307,6 @@ foreach i of local allvar_once {
     }
 }
 
-rm _rp_wend.qmd
 mata: panel_begin="::: {.panel-tabset}"
 mata: panel_end  =":::"
 
@@ -358,26 +357,99 @@ foreach imp in rp sm mi1 {
 	}
 }
 
-file open myfile using _rp_wend.qmd, write
-file write myfile "# asd" _n
-file write myfile "## asd" _n
-file close myfile
+** Sex
+********************************************************************************
+* Plots
+gen wsc2 = wsc 
+label define wsc2  1 "w_m_nc" ///
+				 2 "w_m_c" ///
+				 3 "w_f_nc" ///
+				 4 "w_f_c" ///
+				 5 "nw_m_nc" ///
+				 6 "nw_m_c" ///
+				 7 "nw_f_nc" ///
+				 8 "nw_f_c" 
+label values wsc2 wsc2
+global allvar_once wsc2 sex race ychild works tchild tadult age_g cpl educ_g q5 hhown 
 
-
-mata: 
-
-
-    fh = fopen("_rp_wend.qmd","w")
-    fclose(fh)
-end
-foreach var of global vsex {
-    mata: fh = fopen("_rp_wend.qmd","a")
-    mata: fh = fput(fh,"## `var' ") 
-    mata: fh = fput(fh,"## `var' ")     
-    mata: fclose(fh)
+foreach i in rp sm mi1 {
+	foreach j in wday wend {
+		foreach h of global allvar_once {
+			drop2 aux1 aux2 aux3
+			gen aux1 = thp_levy_`i'_`j' if survey2==1 
+			gen aux2 = thp_levy_`i'_`j' if survey2==2
+			gen aux3 = thp_levy_`i'_`j' if survey2==4 | survey2==5
+			
+			graph box aux1 aux2 aux3 if sex==1 [w=anwgt] , ///
+			over(`h')  noout nofill  box(1, lw(.5) ) box(2, lw(.5) ) box(3, lw(.5) ) ///
+			note(" ") legend(order(1 "CE Interview" 2 "CE Diary" 3 "ATUS") col(3) pos(6)) ///
+			ylabel( 0(4) 16) ytitle("Hrs per Day") xsize(9) ysize(5) scale(1.2) ///
+			graphregion(margin(0 5 0 0))
+			
+			graph export fig_`i'_`j'_`h'_m.png, width(1000) replace
+			
+			
+			graph box aux1 aux2 aux3 if sex==2 [w=anwgt] , ///
+			over(`h')  noout nofill  box(1, lw(.5) ) box(2, lw(.5) ) box(3, lw(.5) ) ///
+			note(" ") legend(order(1 "CE Interview" 2 "CE Diary" 3 "ATUS") col(3) pos(6)) ///
+			ylabel( 0(4) 16) ytitle("Hrs per Day") xsize(9) ysize(5) scale(1.2) ///
+			graphregion(margin(0 5 0 0))
+			
+			graph export fig_`i'_`j'_`h'_f.png, width(1000) replace
+		}
+	}
 }
 
-** Sex
+aaaaaaaaaaaaaaa
+label var wsc2 "Work, Gender, Child"
+
+foreach imp in rp sm mi1 {
+	foreach day_end in wday wend {
+		file open myfile using _png_`imp'_`day_end'.qmd, write replace
+		foreach vmain of global allvar_once {
+			local vmainlab:variable label `vmain'
+			display "`vmainlab'"
+			file write myfile "## `vmainlab'" _n _n
+			foreach vtab of global v`vmain' {
+				display "`vtab'"
+				local vdetlab:variable label `vtab'
+				display "`vdetlab'"
+
+				file write myfile "### `vdetlab'" _n _n
+				
+				*file write myfile "{{< include resources/balance_`vtab'_`day_end'.md >}}" _n	
+				*file write myfile ":Distribution Balance {#tbl-b`vtab'`day_end'`imp'}" _n _n
+				
+				file write myfile "::: {.panel-tabset} " _n _n
+				
+				
+				file write myfile "## Overall " _n _n
+				
+				file write myfile "{{< include resources/mean_`vtab'_`day_end'_`imp'.md >}}" _n	
+				file write myfile ":Match Quality: Mean {#tbl-mn`vtab'`day_end'`imp'}" _n _n
+				
+ 				*file write myfile "{{< >}}" _n
+				file write myfile "## Men " _n _n
+				
+				file write myfile "{{< include resources/median_`vtab'_`day_end'_`imp'.md >}}" _n	
+				file write myfile ":Match Quality: Median {#tbl-md`vtab'`day_end'`imp'}" _n _n
+				
+				*file write myfile "{{< >}}" _n
+				file write myfile "## Women " _n _n
+				
+				file write myfile "{{< include resources/sd_`vtab'_`day_end'_`imp'.md >}}" _n	
+				file write myfile ":Match Quality: Std Dev {#tbl-sd`vtab'`day_end'`imp'}" _n _n
+				
+				file write myfile "::: " _n _n
+				
+			}
+		}
+		file close myfile
+	}
+}
+
+
+
 
 
 

@@ -7,4 +7,6 @@ This page contains data evaluating Mutiple-imputation method, comparing total ho
 
 This is done for various strata groups, as well as two-way interactions. One can evaluate the mean, median and standard deviation.
 
+{{< include howto.md >}}
+
 {{< include resources/_mi1_wend.qmd >}}

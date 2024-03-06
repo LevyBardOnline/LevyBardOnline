@@ -400,50 +400,39 @@ foreach i in rp sm mi1 {
 	}
 }
 
-aaaaaaaaaaaaaaa
-label var wsc2 "Work, Gender, Child"
+label var wsc2 "Work x Gender x Child"
 
 foreach imp in rp sm mi1 {
 	foreach day_end in wday wend {
-		file open myfile using _png_`imp'_`day_end'.qmd, write replace
-		foreach vmain of global allvar_once {
-			local vmainlab:variable label `vmain'
-			display "`vmainlab'"
-			file write myfile "## `vmainlab'" _n _n
-			foreach vtab of global v`vmain' {
-				display "`vtab'"
-				local vdetlab:variable label `vtab'
-				display "`vdetlab'"
+		file open myfile using _fig_`imp'_`day_end'.qmd, write replace
 
-				file write myfile "### `vdetlab'" _n _n
-				
-				*file write myfile "{{< include resources/balance_`vtab'_`day_end'.md >}}" _n	
-				*file write myfile ":Distribution Balance {#tbl-b`vtab'`day_end'`imp'}" _n _n
+			foreach vtab of global allvar_once {
+				local vmainlab:variable label `vtab'
+				display "`vmainlab'"
+				file write myfile "## `vmainlab'" _n _n
 				
 				file write myfile "::: {.panel-tabset} " _n _n
-				
-				
+								
 				file write myfile "## Overall " _n _n
 				
-				file write myfile "{{< include resources/mean_`vtab'_`day_end'_`imp'.md >}}" _n	
-				file write myfile ":Match Quality: Mean {#tbl-mn`vtab'`day_end'`imp'}" _n _n
+				file write myfile "![Box Plot for `vmainlab'](resources\fig_`imp'_`day_end'_`vtab'.png)"	
+				file write myfile "{#fig-f`vtab'`day_end'`imp'}" _n _n
 				
  				*file write myfile "{{< >}}" _n
 				file write myfile "## Men " _n _n
 				
-				file write myfile "{{< include resources/median_`vtab'_`day_end'_`imp'.md >}}" _n	
-				file write myfile ":Match Quality: Median {#tbl-md`vtab'`day_end'`imp'}" _n _n
+				file write myfile "![Box Plot for `vmainlab': Men](resources\fig_`imp'_`day_end'_`vtab'_m.png)"	
+				file write myfile "{#fig-f`vtab'`day_end'`imp'm}" _n _n
 				
 				*file write myfile "{{< >}}" _n
 				file write myfile "## Women " _n _n
 				
-				file write myfile "{{< include resources/sd_`vtab'_`day_end'_`imp'.md >}}" _n	
-				file write myfile ":Match Quality: Std Dev {#tbl-sd`vtab'`day_end'`imp'}" _n _n
+				file write myfile "![Box Plot for `vmainlab': Women](resources\fig_`imp'_`day_end'_`vtab'_f.png)"	
+				file write myfile "{#fig-f`vtab'`day_end'`imp'w}" _n _n
 				
 				file write myfile "::: " _n _n
 				
 			}
-		}
 		file close myfile
 	}
 }

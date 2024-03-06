@@ -112,7 +112,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#gender" id="toc-gender" class="nav-link active" data-scroll-target="#gender">Gender</a>
+  <li><a href="#how-to-read-the-tables" id="toc-how-to-read-the-tables" class="nav-link active" data-scroll-target="#how-to-read-the-tables">How to read the tables:</a>
+  <ul class="collapse">
+  <li><a href="#balance" id="toc-balance" class="nav-link" data-scroll-target="#balance">Balance</a></li>
+  <li><a href="#distribution-statistics" id="toc-distribution-statistics" class="nav-link" data-scroll-target="#distribution-statistics">Distribution Statistics</a></li>
+  </ul></li>
+  <li><a href="#gender" id="toc-gender" class="nav-link" data-scroll-target="#gender">Gender</a>
   <ul class="collapse">
   <li><a href="#gender-1" id="toc-gender-1" class="nav-link" data-scroll-target="#gender-1">Gender</a></li>
   <li><a href="#race-x-gender" id="toc-race-x-gender" class="nav-link" data-scroll-target="#race-x-gender">Race x Gender</a></li>
@@ -294,6 +299,131 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This page contains data evaluating Statistical Matching method, comparing total hours dedicated to household production during Weekends.</p>
 <p>This is done for various strata groups, as well as two-way interactions. One can evaluate the mean, median and standard deviation.</p>
+<section id="how-to-read-the-tables" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-read-the-tables">How to read the tables:</h2>
+<section id="balance" class="level3">
+<h3 class="anchored" data-anchor-id="balance">Balance</h3>
+<p>Consider the following table:</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">CE<br>Interview</th>
+<th style="text-align: center;">CE<br>Diary</th>
+<th style="text-align: center;">ATUS<br>Weekday</th>
+<th style="text-align: center;">CE:Int − ATUS</th>
+<th style="text-align: center;">CE:Dia − ATUS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Var</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Var=1</td>
+<td style="text-align: center;">a1</td>
+<td style="text-align: center;">b1</td>
+<td style="text-align: center;">c1</td>
+<td style="text-align: center;">a1-c1</td>
+<td style="text-align: center;">b1-c1</td>
+</tr>
+<tr class="odd">
+<td>Var=2</td>
+<td style="text-align: center;">a2</td>
+<td style="text-align: center;">b2</td>
+<td style="text-align: center;">c2</td>
+<td style="text-align: center;">a2-c2</td>
+<td style="text-align: center;">b2-c2</td>
+</tr>
+<tr class="even">
+<td>Var=3</td>
+<td style="text-align: center;">a3</td>
+<td style="text-align: center;">b3</td>
+<td style="text-align: center;">c3</td>
+<td style="text-align: center;">a3-c3</td>
+<td style="text-align: center;">b3-c3</td>
+</tr>
+</tbody>
+</table>
+<p>This table shows the balance of the data, providing the distribution of individuals in the recipient (<strong>CE’s</strong>) and donor sample (<strong>ATUS</strong>), across the groups defined by variable <strong>Var</strong>.</p>
+<p>For example, for Column 2, <strong>a1, a2, a3</strong> represent the share of individuals in the CE-Diary sample that are in group Var=1, var=2, and var=3, respectively. Similar for columns 3 and 4.</p>
+<p>Columns 5 and 6 are used to quantify the balance of the data, comparing the distribution of individuals in the CE sample with the distribution of individuals in the ATUS sample. If the data were perfectly balance, we should expect to see zeros in these columns.</p>
+</section>
+<section id="distribution-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="distribution-statistics">Distribution Statistics</h3>
+<p>Consider the following table:</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">CE<br>Interview</th>
+<th style="text-align: center;">CE<br>Diary</th>
+<th style="text-align: center;">ATUS<br>Weekday</th>
+<th style="text-align: center;">CE:Int<br>%ATUS</th>
+<th style="text-align: center;">CE:Dia<br>%ATUS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Var</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Var=1</td>
+<td style="text-align: center;">a1</td>
+<td style="text-align: center;">b1</td>
+<td style="text-align: center;">c1</td>
+<td style="text-align: center;">a1/c1 x 100</td>
+<td style="text-align: center;">b1/c1 x 100</td>
+</tr>
+<tr class="odd">
+<td>Var=2</td>
+<td style="text-align: center;">a2</td>
+<td style="text-align: center;">b2</td>
+<td style="text-align: center;">c2</td>
+<td style="text-align: center;">a2/c2 x 100</td>
+<td style="text-align: center;">b2/c2 x 100</td>
+</tr>
+<tr class="even">
+<td>Var=3</td>
+<td style="text-align: center;">a3</td>
+<td style="text-align: center;">b3</td>
+<td style="text-align: center;">c3</td>
+<td style="text-align: center;">a3/c3 x 100</td>
+<td style="text-align: center;">b3/c3 x 100</td>
+</tr>
+</tbody>
+</table>
+<p>This tables aims to provide a snapshot of the distribution of the variable <strong>Hours of household production</strong> in the CE and ATUS samples, across the groups defined by variable <strong>Var</strong>.</p>
+<p>For example, <strong>a1</strong> represents the (imputed) <strong>average</strong> number of hours of household production that individuals in group Var=1 do in the CE-Interview sample. <strong>c1</strong> represents the (observed) <strong>average</strong> number of hours of household production that individuals in group Var=1 do in the ATUS sample. As part of the different “tabs”, we also present information for the <strong><em>median</em></strong> and <strong><em>standard deviation</em></strong> as the distributional statistics.</p>
+<p>The columns 5 and 6 are used to quantify the differences in the distribution of the variable <strong>Hours of household production</strong> in the CE samples, compared to the ATUS. We use the Ratio between the imputed (CE) and observed (ATUS) statistics. If the data were perfectly balance, we should expect to see 100 in these columns.</p>
+</section>
+</section>
 <section id="gender" class="level2">
 <h2 class="anchored" data-anchor-id="gender">Gender</h2>
 <section id="gender-1" class="level3">

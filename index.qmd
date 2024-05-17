@@ -1,40 +1,12 @@
 ---
-title: "Online Tables and Figures"
+title: "Online Repository: Tables and Figures"
 ---
 
-This is site provides access to tables and figures that can be used to evaluate the Matching Quality of the Imputation methods used for 
-adding time use into the Consumer Expenditure Survey.
+This is site provides access tables and figures associated with various projects at the Levy Economics Institute. 
 
-This is organized by the imputation method used and if the data corresponds to the Weekday vs Weekend data.
+The site is organized by project:
 
-## Regression Prediction
-
-- Weekday
-    - [Tables](rp_weekday.qmd)
-    - [Figures](rp_weekday_fig.qmd)
-   
-- Weekend
-    - [Tables](rp_weekend.qmd)
-    - [Figures](rp_weekend_fig.qmd)
-      
-## Multiple Imputation
-
-- Weekday
-    - [Tables](mi_weekday.qmd)
-    - [Figures](mi_weekday_fig.qmd)
-   
-- Weekend
-    - [Tables](mi_weekend.qmd)
-    - [Figures](mi_weekend_fig.qmd)
-  
-## Statistical Matching
-
-- Weekday
-    - [Tables](sm_weekday.qmd)
-    - [Figures](sm_weekday_fig.qmd)
-   
-- Weekend
-    - [Tables](sm_weekend.qmd)
-    - [Figures](sm_weekend_fig.qmd)
-
+- Integrating Nonmarket Consumption into the Bureau of Labor Statistics Consumer Expenditure Survey [Matching Quality](bls_report.qmd)
+ 
+- Levy Institute Measure of Income Poverty for the US. [US-LIMTIP](uslimtip.qmd)
 

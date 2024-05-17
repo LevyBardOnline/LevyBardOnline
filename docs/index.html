@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Levy Economics Institute: Online Appendix - Online Tables and Figures</title>
+<title>Levy Economics Institute: Online Appendix - Online Repository: Tables and Figures</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,22 +108,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#regression-prediction" id="toc-regression-prediction" class="nav-link active" data-scroll-target="#regression-prediction">Regression Prediction</a></li>
-  <li><a href="#multiple-imputation" id="toc-multiple-imputation" class="nav-link" data-scroll-target="#multiple-imputation">Multiple Imputation</a></li>
-  <li><a href="#statistical-matching" id="toc-statistical-matching" class="nav-link" data-scroll-target="#statistical-matching">Statistical Matching</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Online Tables and Figures</h1>
+<h1 class="title">Online Repository: Tables and Figures</h1>
 </div>
 
 
@@ -140,55 +132,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is site provides access to tables and figures that can be used to evaluate the Matching Quality of the Imputation methods used for adding time use into the Consumer Expenditure Survey.</p>
-<p>This is organized by the imputation method used and if the data corresponds to the Weekday vs Weekend data.</p>
-<section id="regression-prediction" class="level2">
-<h2 class="anchored" data-anchor-id="regression-prediction">Regression Prediction</h2>
+<p>This is site provides access tables and figures associated with various projects at the Levy Economics Institute.</p>
+<p>The site is organized by project:</p>
 <ul>
-<li>Weekday
-<ul>
-<li><a href="./rp_weekday.html">Tables</a></li>
-<li><a href="./rp_weekday_fig.html">Figures</a></li>
-</ul></li>
-<li>Weekend
-<ul>
-<li><a href="./rp_weekend.html">Tables</a></li>
-<li><a href="./rp_weekend_fig.html">Figures</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="multiple-imputation" class="level2">
-<h2 class="anchored" data-anchor-id="multiple-imputation">Multiple Imputation</h2>
-<ul>
-<li>Weekday
-<ul>
-<li><a href="./mi_weekday.html">Tables</a></li>
-<li><a href="./mi_weekday_fig.html">Figures</a></li>
-</ul></li>
-<li>Weekend
-<ul>
-<li><a href="./mi_weekend.html">Tables</a></li>
-<li><a href="./mi_weekend_fig.html">Figures</a></li>
-</ul></li>
-</ul>
-</section>
-<section id="statistical-matching" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-matching">Statistical Matching</h2>
-<ul>
-<li>Weekday
-<ul>
-<li><a href="./sm_weekday.html">Tables</a></li>
-<li><a href="./sm_weekday_fig.html">Figures</a></li>
-</ul></li>
-<li>Weekend
-<ul>
-<li><a href="./sm_weekend.html">Tables</a></li>
-<li><a href="./sm_weekend_fig.html">Figures</a></li>
-</ul></li>
+<li><p>Integrating Nonmarket Consumption into the Bureau of Labor Statistics Consumer Expenditure Survey <a href="./bls_report.html">Matching Quality</a></p></li>
+<li><p>Levy Institute Measure of Income Poverty for the US. <a href="./uslimtip.html">US-LIMTIP</a></p></li>
 </ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -270,6 +221,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -304,7 +273,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

@@ -1,0 +1,13 @@
+
+|                      |         ASEC |    ATUS-Wend |    ATUS-Wday |     Gap-Wend |      Gap-day |
+| -------------------- | :----------: | :----------: | :----------: | :----------: | :----------: |
+| Young Child x Education |              |              |              |              |              |
+| &nbsp;&nbsp;No young Child x Less than HS |        11.85 |        11.94 |        11.01 |        -0.09 |         0.83 |
+| &nbsp;&nbsp;No young Child x HighSchool |        24.20 |        24.45 |        24.75 |        -0.25 |        -0.55 |
+| &nbsp;&nbsp;No young Child x Some College |        22.05 |        20.29 |        20.27 |         1.76 |         1.78 |
+| &nbsp;&nbsp;No young Child x College+ |        28.39 |        30.40 |        30.81 |        -2.01 |        -2.42 |
+| &nbsp;&nbsp;Young Child present x Less than HS |         2.05 |         1.50 |         2.12 |         0.55 |        -0.07 |
+| &nbsp;&nbsp;Young Child present x HighSchool |         3.63 |         3.36 |         3.36 |         0.27 |         0.27 |
+| &nbsp;&nbsp;Young Child present x Some College |         3.13 |         2.43 |         2.59 |         0.70 |         0.54 |
+| &nbsp;&nbsp;Young Child present x College+ |         4.70 |         5.63 |         5.08 |        -0.94 |        -0.39 |
+

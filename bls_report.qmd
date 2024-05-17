@@ -1,0 +1,40 @@
+---
+title: "BLS Report: Online Tables and Figures"
+---
+
+This is site provides access to tables and figures that can be used to evaluate the Matching Quality of the Imputation methods used for 
+adding time use into the Consumer Expenditure Survey.
+
+This is organized by the imputation method used and if the data corresponds to the Weekday vs Weekend data.
+
+## Regression Prediction
+
+- Weekday
+    - [Tables](bls_report/rp_weekday.qmd)
+    - [Figures](bls_report/rp_weekday_fig.qmd)
+   
+- Weekend
+    - [Tables](bls_report/rp_weekend.qmd)
+    - [Figures](bls_report/rp_weekend_fig.qmd)
+      
+## Multiple Imputation
+
+- Weekday
+    - [Tables](bls_report/mi_weekday.qmd)
+    - [Figures](bls_report/mi_weekday_fig.qmd)
+   
+- Weekend
+    - [Tables](bls_report/mi_weekend.qmd)
+    - [Figures](bls_report/mi_weekend_fig.qmd)
+  
+## Statistical Matching
+
+- Weekday
+    - [Tables](bls_report/sm_weekday.qmd)
+    - [Figures](bls_report/sm_weekday_fig.qmd)
+   
+- Weekend
+    - [Tables](bls_report/sm_weekend.qmd)
+    - [Figures](bls_report/sm_weekend_fig.qmd)
+
+

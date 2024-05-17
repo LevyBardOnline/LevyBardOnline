@@ -1,0 +1,13 @@
+
+|                      |    ATUS-Wend |     ASEC-Gap |    ATUS-Wday |     ASEC-Gap |
+| -------------------- | :----------: | :----------: | :----------: | :----------: |
+| Couple x # Children  |              |              |              |              |
+| &nbsp;&nbsp;Single Headed HH x 0 |       174.47 |         1.24 |       161.83 |         3.07 |
+| &nbsp;&nbsp;Single Headed HH x 1 |       193.15 |         3.79 |       175.06 |        11.74 |
+| &nbsp;&nbsp;Single Headed HH x 2+ |       208.99 |        -9.82 |       180.84 |        12.29 |
+| &nbsp;&nbsp;Single Headed HH x 3 |       209.67 |         6.82 |       227.96 |       -30.48 |
+| &nbsp;&nbsp;Couple Headed HH x 0 |       182.97 |        -0.96 |       173.16 |         0.28 |
+| &nbsp;&nbsp;Couple Headed HH x 1 |       199.49 |         9.51 |       195.43 |         6.46 |
+| &nbsp;&nbsp;Couple Headed HH x 2+ |       210.81 |        -2.10 |       202.79 |         9.48 |
+| &nbsp;&nbsp;Couple Headed HH x 3 |       221.56 |        -8.84 |       233.93 |        -7.64 |
+

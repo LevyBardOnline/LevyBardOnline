@@ -1,0 +1,12 @@
+---
+title: ASEC-ATUS Match Quality Statistics
+subtitle: Year 2015
+---
+
+This page contains data evaluating the Match quality of data between ATUS (weekday and weekend) and ASEC.
+
+This is done by comparing the mean, median and Standard deviation for time spent on household production for various selected groups and their interactions
+
+{{< include howto.md >}}
+
+{{< include resources/_2015_qm.qmd >}}

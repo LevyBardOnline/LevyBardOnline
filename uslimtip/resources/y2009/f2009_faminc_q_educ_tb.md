@@ -1,0 +1,25 @@
+
+|                      |         ASEC |    ATUS-Wend |    ATUS-Wday |     Gap-Wend |      Gap-day |
+| -------------------- | :----------: | :----------: | :----------: | :----------: | :----------: |
+| Family Income x Education |              |              |              |              |              |
+| &nbsp;&nbsp;Less than $30k x Less than HS |         8.63 |         8.51 |         8.48 |         0.12 |         0.15 |
+| &nbsp;&nbsp;Less than $30k x HighSchool |        10.28 |        10.63 |        10.37 |        -0.35 |        -0.10 |
+| &nbsp;&nbsp;Less than $30k x Some College |         6.36 |         5.18 |         5.85 |         1.18 |         0.52 |
+| &nbsp;&nbsp;Less than $30k x College+ |         2.59 |         2.33 |         2.66 |         0.26 |        -0.07 |
+| &nbsp;&nbsp;$30k-$50k x Less than HS |         4.02 |         3.98 |         4.32 |         0.04 |        -0.30 |
+| &nbsp;&nbsp;$30k-$50k x HighSchool |         7.41 |         8.12 |         8.05 |        -0.71 |        -0.64 |
+| &nbsp;&nbsp;$30k-$50k x Some College |         5.87 |         5.73 |         5.37 |         0.14 |         0.51 |
+| &nbsp;&nbsp;$30k-$50k x College+ |         3.59 |         4.11 |         3.51 |        -0.52 |         0.08 |
+| &nbsp;&nbsp;$50k-$75k x Less than HS |         2.69 |         2.91 |         2.70 |        -0.22 |        -0.00 |
+| &nbsp;&nbsp;$50k-$75k x HighSchool |         5.85 |         5.16 |         5.28 |         0.69 |         0.57 |
+| &nbsp;&nbsp;$50k-$75k x Some College |         6.01 |         5.31 |         5.61 |         0.69 |         0.40 |
+| &nbsp;&nbsp;$50k-$75k x College+ |         5.11 |         4.97 |         5.10 |         0.14 |         0.00 |
+| &nbsp;&nbsp;$75k-$150k x Less than HS |         2.59 |         2.51 |         2.74 |         0.08 |        -0.15 |
+| &nbsp;&nbsp;$75k-$150k x HighSchool |         4.86 |         4.87 |         4.23 |        -0.01 |         0.63 |
+| &nbsp;&nbsp;$75k-$150k x Some College |         6.65 |         6.86 |         6.58 |        -0.21 |         0.07 |
+| &nbsp;&nbsp;$75k-$150k x College+ |         9.65 |        10.86 |        11.24 |        -1.21 |        -1.59 |
+| &nbsp;&nbsp;$150k and over x Less than HS |         0.72 |         0.70 |         0.90 |         0.02 |        -0.17 |
+| &nbsp;&nbsp;$150k and over x HighSchool |         0.86 |         0.63 |         0.95 |         0.24 |        -0.09 |
+| &nbsp;&nbsp;$150k and over x Some College |         1.63 |         1.60 |         1.62 |         0.03 |         0.01 |
+| &nbsp;&nbsp;$150k and over x College+ |         4.63 |         5.02 |         4.45 |        -0.39 |         0.18 |
+

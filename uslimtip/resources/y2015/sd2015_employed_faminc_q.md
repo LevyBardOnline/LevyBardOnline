@@ -1,0 +1,15 @@
+
+|                      |    ATUS-Wend |     ASEC-Gap |    ATUS-Wday |     ASEC-Gap |
+| -------------------- | :----------: | :----------: | :----------: | :----------: |
+| Employed Status x Family Income |              |              |              |              |
+| &nbsp;&nbsp;Not Employed x Less than $30k |       188.89 |         2.84 |       190.14 |         4.38 |
+| &nbsp;&nbsp;Not Employed x $30k-$50k |       190.93 |         1.19 |       212.06 |        -4.13 |
+| &nbsp;&nbsp;Not Employed x $50k-$75k |       191.29 |        -1.59 |       210.02 |         3.53 |
+| &nbsp;&nbsp;Not Employed x $75k-$150k |       198.39 |        -1.90 |       220.58 |         2.69 |
+| &nbsp;&nbsp;Not Employed x $150k and over |       198.30 |        -0.13 |       236.32 |       -13.79 |
+| &nbsp;&nbsp;Employed x Less than $30k |       172.79 |        -0.92 |       170.99 |        -2.41 |
+| &nbsp;&nbsp;Employed x $30k-$50k |       195.83 |        -0.26 |       161.64 |         2.64 |
+| &nbsp;&nbsp;Employed x $50k-$75k |       197.71 |         0.59 |       152.84 |         0.16 |
+| &nbsp;&nbsp;Employed x $75k-$150k |       201.39 |        -1.00 |       167.70 |        -0.94 |
+| &nbsp;&nbsp;Employed x $150k and over |       202.01 |        -1.30 |       147.91 |         7.20 |
+

@@ -1,0 +1,9 @@
+
+|                      |         ASEC |    ATUS-Wend |    ATUS-Wday |     Gap-Wend |      Gap-day |
+| -------------------- | :----------: | :----------: | :----------: | :----------: | :----------: |
+| Couple x Gender      |              |              |              |              |              |
+| &nbsp;&nbsp;Single Headed HH x Men |        15.03 |        14.77 |        14.52 |         0.27 |         0.52 |
+| &nbsp;&nbsp;Single Headed HH x Women |        18.10 |        18.02 |        18.73 |         0.09 |        -0.63 |
+| &nbsp;&nbsp;Couple Headed HH x Men |        33.87 |        33.65 |        33.93 |         0.22 |        -0.05 |
+| &nbsp;&nbsp;Couple Headed HH x Women |        32.99 |        33.56 |        32.83 |        -0.57 |         0.17 |
+

@@ -1,0 +1,13 @@
+
+|                      |         ASEC |    ATUS-Wend |    ATUS-Wday |     Gap-Wend |      Gap-day |
+| -------------------- | :----------: | :----------: | :----------: | :----------: | :----------: |
+| Gender x Education   |              |              |              |              |              |
+| &nbsp;&nbsp;Men x Less than HS |         7.22 |         7.47 |         7.27 |        -0.25 |        -0.05 |
+| &nbsp;&nbsp;Men x HighSchool |        13.85 |        13.82 |        14.06 |         0.03 |        -0.21 |
+| &nbsp;&nbsp;Men x Some College |        12.27 |        11.30 |        10.80 |         0.97 |         1.47 |
+| &nbsp;&nbsp;Men x College+ |        15.56 |        15.83 |        16.32 |        -0.27 |        -0.76 |
+| &nbsp;&nbsp;Women x Less than HS |         6.83 |         6.83 |         7.07 |        -0.00 |        -0.24 |
+| &nbsp;&nbsp;Women x HighSchool |        12.77 |        13.69 |        13.42 |        -0.91 |        -0.64 |
+| &nbsp;&nbsp;Women x Some College |        13.97 |        13.23 |        13.24 |         0.75 |         0.74 |
+| &nbsp;&nbsp;Women x College+ |        17.52 |        17.83 |        17.84 |        -0.31 |        -0.32 |
+

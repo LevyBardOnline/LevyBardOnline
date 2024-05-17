@@ -1,0 +1,13 @@
+
+|                      |    ATUS-Wend |     ASEC-Gap |    ATUS-Wday |     ASEC-Gap |
+| -------------------- | :----------: | :----------: | :----------: | :----------: |
+| Couple x Race        |              |              |              |              |
+| &nbsp;&nbsp;Single Headed HH x White |       158.00 |        -8.00 |       116.00 |        -6.00 |
+| &nbsp;&nbsp;Single Headed HH x Black |       120.00 |         0.00 |        90.00 |        14.00 |
+| &nbsp;&nbsp;Single Headed HH x Hispanic |       180.00 |       -30.00 |       135.00 |       -15.00 |
+| &nbsp;&nbsp;Single Headed HH x Other |        95.00 |        25.00 |        75.00 |        30.00 |
+| &nbsp;&nbsp;Couple Headed HH x White |       206.00 |         0.00 |       141.00 |         4.00 |
+| &nbsp;&nbsp;Couple Headed HH x Black |       125.00 |        25.00 |       120.00 |         5.00 |
+| &nbsp;&nbsp;Couple Headed HH x Hispanic |       210.00 |        -5.00 |       135.00 |         5.00 |
+| &nbsp;&nbsp;Couple Headed HH x Other |       216.00 |        -6.00 |       165.00 |       -17.00 |
+

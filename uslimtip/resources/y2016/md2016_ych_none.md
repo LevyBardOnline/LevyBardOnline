@@ -1,0 +1,7 @@
+
+|                      |    ATUS-Wend |     ASEC-Gap |    ATUS-Wday |     ASEC-Gap |
+| -------------------- | :----------: | :----------: | :----------: | :----------: |
+| Young Child          |              |              |              |              |
+| &nbsp;&nbsp;No young Child |       165.00 |         5.00 |       115.00 |         5.00 |
+| &nbsp;&nbsp;Young Child present |       280.00 |       -20.00 |       209.00 |       -26.00 |
+

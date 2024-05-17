@@ -1,0 +1,2120 @@
+## Gender
+
+### Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_none.md >}}
+:Match Quality: Median {#tbl-md2008_sex_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_none}
+
+::: 
+
+### Gender x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_employed.md >}}
+:Match Quality: Median {#tbl-md2008_sex_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_employed}
+
+::: 
+
+### Gender x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_ych.md >}}
+:Match Quality: Median {#tbl-md2008_sex_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_ych}
+
+::: 
+
+### Gender x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_sex_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_iscouple}
+
+::: 
+
+### Gender x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_race.md >}}
+:Match Quality: Median {#tbl-md2008_sex_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_race}
+
+::: 
+
+### Gender x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_sex_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_educ_tb}
+
+::: 
+
+### Gender x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_sex_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_age_group}
+
+::: 
+
+### Gender x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_sex_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_ntchild}
+
+::: 
+
+### Gender x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_sex_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_ntadult}
+
+::: 
+
+### Gender x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_sex_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_sex_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_sex_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_sex_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_sex_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_sex_faminc_q}
+
+::: 
+
+## Employed Status
+
+### Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_none.md >}}
+:Match Quality: Median {#tbl-md2008_employed_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_none}
+
+::: 
+
+### Employed Status x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_sex.md >}}
+:Match Quality: Median {#tbl-md2008_employed_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_sex}
+
+::: 
+
+### Employed Status x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_ych.md >}}
+:Match Quality: Median {#tbl-md2008_employed_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_ych}
+
+::: 
+
+### Employed Status x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_employed_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_iscouple}
+
+::: 
+
+### Employed Status x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_race.md >}}
+:Match Quality: Median {#tbl-md2008_employed_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_race}
+
+::: 
+
+### Employed Status x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_employed_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_educ_tb}
+
+::: 
+
+### Employed Status x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_employed_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_age_group}
+
+::: 
+
+### Employed Status x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_employed_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_ntchild}
+
+::: 
+
+### Employed Status x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_employed_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_ntadult}
+
+::: 
+
+### Employed Status x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_employed_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_employed_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_employed_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_employed_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_employed_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_employed_faminc_q}
+
+::: 
+
+## Young Child
+
+### Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_none.md >}}
+:Match Quality: Median {#tbl-md2008_ych_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_none}
+
+::: 
+
+### Young Child x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_sex.md >}}
+:Match Quality: Median {#tbl-md2008_ych_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_sex}
+
+::: 
+
+### Young Child x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_employed.md >}}
+:Match Quality: Median {#tbl-md2008_ych_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_employed}
+
+::: 
+
+### Young Child x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_ych_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_iscouple}
+
+::: 
+
+### Young Child x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_race.md >}}
+:Match Quality: Median {#tbl-md2008_ych_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_race}
+
+::: 
+
+### Young Child x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_ych_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_educ_tb}
+
+::: 
+
+### Young Child x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_ych_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_age_group}
+
+::: 
+
+### Young Child x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_ych_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_ntchild}
+
+::: 
+
+### Young Child x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_ych_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_ntadult}
+
+::: 
+
+### Young Child x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ych_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_ych_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_ych_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_ych_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ych_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ych_faminc_q}
+
+::: 
+
+## Couple
+
+### Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_none.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_none}
+
+::: 
+
+### Couple x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_sex.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_sex}
+
+::: 
+
+### Couple x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_employed.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_employed}
+
+::: 
+
+### Couple x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_ych.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_ych}
+
+::: 
+
+### Couple x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_race.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_race}
+
+::: 
+
+### Couple x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_educ_tb}
+
+::: 
+
+### Couple x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_age_group}
+
+::: 
+
+### Couple x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_ntchild}
+
+::: 
+
+### Couple x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_ntadult}
+
+::: 
+
+### Couple x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_iscouple_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_iscouple_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_iscouple_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_iscouple_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_iscouple_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_iscouple_faminc_q}
+
+::: 
+
+## Race
+
+### Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_none.md >}}
+:Match Quality: Median {#tbl-md2008_race_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_none}
+
+::: 
+
+### Race x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_sex.md >}}
+:Match Quality: Median {#tbl-md2008_race_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_sex}
+
+::: 
+
+### Race x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_employed.md >}}
+:Match Quality: Median {#tbl-md2008_race_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_employed}
+
+::: 
+
+### Race x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_ych.md >}}
+:Match Quality: Median {#tbl-md2008_race_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_ych}
+
+::: 
+
+### Race x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_race_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_iscouple}
+
+::: 
+
+### Race x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_race_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_educ_tb}
+
+::: 
+
+### Race x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_race_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_age_group}
+
+::: 
+
+### Race x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_race_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_ntchild}
+
+::: 
+
+### Race x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_race_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_ntadult}
+
+::: 
+
+### Race x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_race_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_race_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_race_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_race_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_race_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_race_faminc_q}
+
+::: 
+
+## Education
+
+### Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_none.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_none}
+
+::: 
+
+### Education x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_sex.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_sex}
+
+::: 
+
+### Education x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_employed.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_employed}
+
+::: 
+
+### Education x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_ych.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_ych}
+
+::: 
+
+### Education x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_iscouple}
+
+::: 
+
+### Education x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_race.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_race}
+
+::: 
+
+### Education x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_age_group}
+
+::: 
+
+### Education x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_ntchild}
+
+::: 
+
+### Education x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_ntadult}
+
+::: 
+
+### Education x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_educ_tb_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_educ_tb_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_educ_tb_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_educ_tb_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_educ_tb_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_educ_tb_faminc_q}
+
+::: 
+
+## Age Group
+
+### Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_none.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_none}
+
+::: 
+
+### Age Group x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_sex.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_sex}
+
+::: 
+
+### Age Group x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_employed.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_employed}
+
+::: 
+
+### Age Group x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_ych.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_ych}
+
+::: 
+
+### Age Group x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_iscouple}
+
+::: 
+
+### Age Group x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_race.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_race}
+
+::: 
+
+### Age Group x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_educ_tb}
+
+::: 
+
+### Age Group x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_ntchild}
+
+::: 
+
+### Age Group x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_ntadult}
+
+::: 
+
+### Age Group x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_age_group_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_age_group_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_age_group_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_age_group_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_age_group_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_age_group_faminc_q}
+
+::: 
+
+## # Children
+
+### # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_none.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_none}
+
+::: 
+
+### # Children x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_sex.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_sex}
+
+::: 
+
+### # Children x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_employed.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_employed}
+
+::: 
+
+### # Children x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_ych.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_ych}
+
+::: 
+
+### # Children x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_iscouple}
+
+::: 
+
+### # Children x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_race.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_race}
+
+::: 
+
+### # Children x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_educ_tb}
+
+::: 
+
+### # Children x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_age_group}
+
+::: 
+
+### # Children x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_ntadult}
+
+::: 
+
+### # Children x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntchild_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntchild_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntchild_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_ntchild_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntchild_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntchild_faminc_q}
+
+::: 
+
+## # Adults
+
+### # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_none.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_none}
+
+::: 
+
+### # Adults x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_sex.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_sex}
+
+::: 
+
+### # Adults x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_employed.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_employed}
+
+::: 
+
+### # Adults x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_ych.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_ych}
+
+::: 
+
+### # Adults x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_iscouple}
+
+::: 
+
+### # Adults x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_race.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_race}
+
+::: 
+
+### # Adults x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_educ_tb}
+
+::: 
+
+### # Adults x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_age_group}
+
+::: 
+
+### # Adults x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_ntchild}
+
+::: 
+
+### # Adults x Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_ntadult_faminc_q.md >}}
+:Match Quality: Mean {#tbl-mn2008_ntadult_faminc_q}
+
+## Median 
+
+{{< include resources/y2008/md2008_ntadult_faminc_q.md >}}
+:Match Quality: Median {#tbl-md2008_ntadult_faminc_q}
+
+## SD 
+
+{{< include resources/y2008/sd2008_ntadult_faminc_q.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_ntadult_faminc_q}
+
+::: 
+
+## Family Income
+
+### Family Income
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_none.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_none}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_none.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_none}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_none.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_none}
+
+::: 
+
+### Family Income x Gender
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_sex.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_sex}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_sex.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_sex}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_sex.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_sex}
+
+::: 
+
+### Family Income x Employed Status
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_employed.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_employed}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_employed.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_employed}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_employed.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_employed}
+
+::: 
+
+### Family Income x Young Child
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_ych.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_ych}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_ych.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_ych}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_ych.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_ych}
+
+::: 
+
+### Family Income x Couple
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_iscouple.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_iscouple}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_iscouple.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_iscouple}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_iscouple.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_iscouple}
+
+::: 
+
+### Family Income x Race
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_race.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_race}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_race.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_race}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_race.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_race}
+
+::: 
+
+### Family Income x Education
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_educ_tb.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_educ_tb}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_educ_tb.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_educ_tb}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_educ_tb.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_educ_tb}
+
+::: 
+
+### Family Income x Age Group
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_age_group.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_age_group}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_age_group.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_age_group}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_age_group.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_age_group}
+
+::: 
+
+### Family Income x # Children
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_ntchild.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_ntchild}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_ntchild.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_ntchild}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_ntchild.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_ntchild}
+
+::: 
+
+### Family Income x # Adults
+
+::: {.panel-tabset} 
+
+## Mean 
+
+{{< include resources/y2008/mn2008_faminc_q_ntadult.md >}}
+:Match Quality: Mean {#tbl-mn2008_faminc_q_ntadult}
+
+## Median 
+
+{{< include resources/y2008/md2008_faminc_q_ntadult.md >}}
+:Match Quality: Median {#tbl-md2008_faminc_q_ntadult}
+
+## SD 
+
+{{< include resources/y2008/sd2008_faminc_q_ntadult.md >}}
+:Match Quality: Standard Deviation {#tbl-sd2008_faminc_q_ntadult}
+
+::: 
+

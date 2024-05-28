@@ -10,7 +10,7 @@
 
 :::{#fig-wkdayall_sex}
 
-![](uslimtip/resources/y2022/2022wkday_sex.png)
+![](resources/y2022/2022wkday_sex.png)
 
 **Gender: Weekday 2022**
 
@@ -21,7 +21,7 @@
 
 :::{#fig-wkdayall_age_group}
 
-![](uslimtip/resources/y2022/2022wkday_age_group.png)
+![](resources/y2022/2022wkday_age_group.png)
 
 **Age: Weekday 2022**
 
@@ -33,7 +33,7 @@
 
 :::{#fig-wkdayall_race}
 
-![](uslimtip/resources/y2022/2022wkday_race.png)
+![](resources/y2022/2022wkday_race.png)
 
 **Race: Weekday 2022**
 
@@ -45,7 +45,7 @@
 
 :::{#fig-wkdayall_emp}
 
-![](uslimtip/resources/y2022/2022wkday_empstat2.png)
+![](resources/y2022/2022wkday_empstat2.png)
 
 **Employment status: Weekday 2022**
 ::: 
@@ -55,7 +55,7 @@
 
 :::{#fig-wkdayall_edu}
 
-![](uslimtip/resources/y2022/2022wkday_educ_tb.png)
+![](resources/y2022/2022wkday_educ_tb.png)
 
 **Education: Weekday 2022**
 
@@ -66,7 +66,7 @@
 
 :::{#fig-wkday_hc}
 
-![](uslimtip/resources/y2022/2022wkday_haschildren.png)
+![](resources/y2022/2022wkday_haschildren.png)
 
 **Children present: Weekday 2022**
 
@@ -79,7 +79,7 @@
 
 :::{#fig-wkdayall}
 
-![](uslimtip/resources/y2022/2022wkday_ych.png)
+![](resources/y2022/2022wkday_ych.png)
 
 **Young children: Weekday 2022**
 
@@ -89,7 +89,7 @@
 
 :::{#fig-wkdayall_couple}
 
-![](uslimtip/resources/y2022/2022wkday_iscouple.png)
+![](resources/y2022/2022wkday_iscouple.png)
 
 **Couple: Weekday 2022**
 
@@ -101,7 +101,7 @@
 
 :::{#fig-wkdayall_nchild}
 
-![](uslimtip/resources/y2022/2022wkday_ntchild.png)
+![](resources/y2022/2022wkday_ntchild.png)
 
 **Number of Children: Weekday 2022**
 
@@ -111,7 +111,7 @@
 
 :::{#fig-wkdayall_nadult}
 
-![](uslimtip/resources/y2022/2022wkday_nadult.png)
+![](resources/y2022/2022wkday_nadult.png)
 
 **Number of Adults: Weekday 2022**
 
@@ -122,7 +122,7 @@
 
 :::{#fig-wkdayall_faminc}
 
-![](uslimtip/resources/y2022/2022wkday_faminc_q.png)
+![](resources/y2022/2022wkday_faminc_q.png)
 
 **Family Income: Weekday 2022**
 
@@ -139,7 +139,7 @@
 
 :::{#fig-wkendall_sex}
 
-![](uslimtip/resources/y2022/2022wkend_sex.png)
+![](resources/y2022/2022wkend_sex.png)
 
 **Gender: Weekend 2022**
 
@@ -150,7 +150,7 @@
 
 :::{#fig-wkendall_age_group}
 
-![](uslimtip/resources/y2022/2022wkend_age_group.png)
+![](resources/y2022/2022wkend_age_group.png)
 
 **Age: Weekend 2022**
 
@@ -161,7 +161,7 @@
 
 :::{#fig-wkendall_race}
 
-![](uslimtip/resources/y2022/2022wkend_race.png)
+![](resources/y2022/2022wkend_race.png)
 
 **Race: Weekend 2022**
 
@@ -172,7 +172,7 @@
 
 :::{#fig-wkendall_emp}
 
-![](uslimtip/resources/y2022/2022wkend_empstat2.png)
+![](resources/y2022/2022wkend_empstat2.png)
 
 **Employment status: Weekend 2022**
 ::: 
@@ -182,7 +182,7 @@
 
 :::{#fig-wkendall_edu}
 
-![](uslimtip/resources/y2022/2022wkend_educ_tb.png)
+![](resources/y2022/2022wkend_educ_tb.png)
 
 **Education: Weekend 2022**
 
@@ -192,7 +192,7 @@
 
 :::{#fig-wkendall_hc}
 
-![](uslimtip/resources/y2022/2022wkend_haschildren.png)
+![](resources/y2022/2022wkend_haschildren.png)
 
 **Children present: Weekend 2022**
 
@@ -204,7 +204,7 @@
 
 :::{#fig-wkendall}
 
-![](uslimtip/resources/y2022/2022wkend_ych.png)
+![](resources/y2022/2022wkend_ych.png)
 
 **Young children: Weekend 2022**
 
@@ -214,7 +214,7 @@
 
 :::{#fig-wkendall_couple}
 
-![](uslimtip/resources/y2022/2022wkend_iscouple.png)
+![](resources/y2022/2022wkend_iscouple.png)
 
 **Couple: Weekend 2022**
 
@@ -226,7 +226,7 @@
 
 ::: {#fig-wkendall_nchild}
 
-![](uslimtip/resources/y2022/2022wkend_ntchild.png)
+![](resources/y2022/2022wkend_ntchild.png)
 
 **Number of Children: Weekend 2022**
 
@@ -236,7 +236,7 @@
 
 :::{#fig-wkendall_nadult}
 
-![](uslimtip/resources/y2022/2022wkend_nadult.png)
+![](resources/y2022/2022wkend_ntadult.png)
 
 **Number of Adults: Weekend 2022**
 
@@ -247,7 +247,7 @@
 
 :::{#fig-wkendall_faminc}
 
-![](uslimtip/resources/y2022/2022wkend_faminc_q.png)
+![](resources/y2022/2022wkend_faminc_q.png)
 
 **Family Income: Weekend 2022**
 

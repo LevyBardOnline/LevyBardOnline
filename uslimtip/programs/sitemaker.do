@@ -58,5 +58,5 @@ file write myfile "### Match Quality " _n _n
 file write myfile "* [Tables](uslimtip/uslimtip`year'_mq.qmd) " _n 
 file write myfile "* Figures " _n _n
 }
-    file close myfile
+file close myfile
 

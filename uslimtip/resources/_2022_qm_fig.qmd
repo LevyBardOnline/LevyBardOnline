@@ -251,8 +251,7 @@
 
 **Family Income: Weekend 2022**
 
-
-
+!*****************!
 
 {{< include resources/y2022/mn2022_sex_none.md >}}
 :Match Quality: Mean {#tbl-mn2022_sex_none}

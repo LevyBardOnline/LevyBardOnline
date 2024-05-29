@@ -1,6 +1,4 @@
-
-
-***boxplots_online appendix USLIMTIP
+**online appendix USLIMTIP
 
 forvalues year = 2005/2023 {
 	cd "$savedata"
@@ -9,7 +7,7 @@ forvalues year = 2005/2023 {
 		use "$savedata/asec_atus_f_concise.dta" if year==`year' , clear
 		merge m:1 year hseq lineno using "$savedata/match_`year'_wkday.dta", gen(m1)
 		merge m:1 year hseq lineno using "$savedata/match_`year'_wkend.dta", gen(m2)
-		
+	
 		
 		drop2 _merge mx
 		drop2 fpr* sum_w* yearp*
@@ -48,6 +46,8 @@ forvalues year = 2005/2023 {
         label define sex 1 "Men" 2 "Women",  replace
         label define ych 0 "No young Child" 1 "Young Child present"  ,  replace 
 		label define haschildren 0 "No children" 1 "Child(ren) present"  ,  replace 
+		label define survey 11 "ATUS" 12 "ATUS"  20 "ASEC" ,  replace 
+		label define g 1 "m_nc_ne" 2 "m_nc_e" 3 "m_c_ne" 4 "m_c_e" 5 "w_nc_ne" 6 "w_nc_e" 7 "w_c_ne" 8 "w_c_e",  replace 
 
 		label values age_group  age_group
 		label values educ_tb  educ_tb
@@ -60,7 +60,7 @@ forvalues year = 2005/2023 {
 		label values sex sex
 		label values ych ych
 		label values haschildren haschildren
-
+		label values g g
 
 *Match quality boxplots
 global $github Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip
@@ -70,304 +70,74 @@ color_style bay
 
 *Overall
 			 			 
-foreach i in sex race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
+foreach i in g sex race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
 	
 graph box hprod_wkday if survey!=12, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/`year'wkday_`i'.png", replace
+
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/wkday_`i'.png", replace
 
 
 graph box hprod_wkend if survey!=11, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkend_`i', replace) 
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/`year'wkend_`i'.png", replace
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/wkend_`i'.png", replace
 
-graph combine wkday_`i' wkend_`i', nocopies  ysize(5) xsize(10) scale(1.4)
-
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/`year'c_`i'.png", replace
 }
 
 
 *Men
-foreach i in race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q{
+foreach i in g race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q{
 
 graph box hprod_wkday if survey!=12 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/m`year'wkday_`i'.png", replace
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkday_`i'.png", replace
 
 graph box hprod_wkend if survey!=11 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkend_`i', replace) 
 
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/m`year'wkend_`i'.png", replace
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkend_`i'.png", replace
 
 }
 *Women
-foreach i in race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
+foreach i in g race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
+
 
 graph box hprod_wkday if survey!=12 & sex==2, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/f`year'wkday_`i'.png", replace
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/fwkday_`i'.png", replace
 
 
 graph box hprod_wkend if survey!=11 & sex==2, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkend_`i', replace) 
-graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/f`year'wkend_`i'.png", replace
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/fwkend_`i'.png", replace
 
 
 }
 
+*Balance
+
+
+*Overall
+set scheme white2 
+color_style bay
+
+foreach i in sex race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
+graph bar (percent) if survey!=12 [w=fwt], over(survey, label(labsize(small))) over(`i', label(labsize(small))) ytitle("Share (%)")
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/wkday_`i'_b.png", replace
+
+graph bar (percent) if survey!=11 [w=fwt], over(survey, label(labsize(small))) over(`i', label(labsize(small))) ytitle("Share (%)")
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/wkend_`i'_b.png", replace
+}
+*Men
+foreach i in  race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
+graph bar (percent) if survey!=12 & sex==1 [w=fwt], over(survey, label(labsize(small))) over(`i', label(labsize(small))) ytitle("Share (%)")
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkday_`i'_b.png", replace
+
+graph bar (percent) if survey!=11 & sex==1 [w=fwt], over(survey, label(labsize(small))) over(`i', label(labsize(small))) ytitle("Share (%)")
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkend_`i'_b.png", replace
 }
 
-/***EXTRA
-	
-***Construct rel/abs gap and plot those \
-forvalues i = 2022 / 2022 {
-	use "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/procdata/qtable_`i'.dta", clear
+*Women
+foreach i in race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
+graph bar (percent) if survey!=12 & sex==1 [w=fwt], over(survey, label(labsize(small))) over(`i', label(labsize(small))) ytitle("Share (%)")
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/fwkday_`i'_b.png", replace
 
+graph bar (percent) if survey!=11 & sex==2 [w=fwt], over(survey, label(labsize(small))) over(`i', label(labsize(small))) ytitle("Share (%)")
 
-sort ovar1 ovar2
-
-gen day_gap = ((day_d_mean - day_r_mean) / (0.5 * (day_d_mean + day_r_mean))) * 100
-
-gen end_gap = ((end_d_mean - end_r_mean)/  (0.5 * (end_d_mean + end_r_mean))) * 100 
-
-gen y_var= _n
-
-	
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar2 == "none",xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar2 == "none", xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-    xtitle("Relative household production gap", size(small)) 
-    ytitle("Sub-groups")
-    title("Match Quality: Comparing Mean differences", size(small bold))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8)
-;
-#delimit cr
-
-}
-
-levelsof y_var, local(vyvar)
-foreach i of local vyvar {
-     sum end_d_vi if y_var == `i', meanonly
-	 local ki = r(mean)
-	 local ii `=ovar1[`i']'
-	 display "`ii'"
-	 label define y_var `i' "`:label `ii' `ki''", modify
-}
-label values y_var y_var
-
-sort ovar1 ovar2
-
-
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1=="sex" & ovar2=="none" ,xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1=="sex" & ovar2=="none" , xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-	ylabel(,val)
-    xtitle("Relative household production gap" , size(small)) 
-    ytitle("Presence of young children")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8) 
-
-;
-
-#delimit cr
-
-
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1=="age_group" & ovar2=="none" ,xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1=="age_group" & ovar2=="none" , xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-	ylabel(,val)
-    xtitle("Relative household production gap" , size(small)) 
-    ytitle("Age-groups")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8) 
-
-;
-#delimit cr
-
-
-
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1=="employed" & ovar2=="none" ,xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1=="employed" & ovar2=="none" , xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-	ylabel(,val)
-    xtitle("Relative household production gap" , size(small)) 
-    ytitle("Employment status")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8) 
-
-;
-#delimit cr
-
-
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1=="ych" & ovar2=="none" ,xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1=="ych" & ovar2=="none" , xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-	ylabel(,val)
-    xtitle("Relative household production gap" , size(small)) 
-    ytitle("Presence of young children")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8) 
-
-;
-#delimit cr
-
-
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1=="race" & ovar2=="none" ,xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1=="race" & ovar2=="none" , xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-	ylabel(,val)
-    xtitle("Relative household production gap" , size(small)) 
-    ytitle("Race")
-
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8) 
-
-;
-#delimit cr
-
-
-global listv1  sex  employed  ych iscouple race educ_tb   age_group ntchild  ntadult faminc_q
-global listv2 none  $listv1 
- foreach ii  of global listv1 {
-            foreach jj  of global listv2 {
-                if "`jj'"!="`ii'" {
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1=="`ii'" & ovar2=="none",xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1=="`ii'" & ovar2=="none", xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-    xtitle("Relative household production gap", size(small)) 
-    ytitle("Sub-groups")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") position(6) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8) ylabel(,val)
-;
-#delimit cr
-
+graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/fwkend_`i'_b.png", replace
 }
 }
-}
-}
-
-/*check with FRA saving
-graph save "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`i'/scatter_`i'.png", replace
-*/
-	
-
-	
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1 =="employed" & ovar2 == "none",xscale(range(-20 20)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1 =="employed" & ovar2 == "none", xscale(range(-20 20)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))
-    ylabel(299 "Not Employed" 298 "Employed", angle(0) labsize(small) gmin gmax)
-	xtitle("Relative household production gap", size(small))
-    ytitle("Employment status")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") ring(0) position(11) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-
-;
-#delimit cr
-
-#delimit ;	
-twoway
-	(scatter y_var day_gap if ovar1 =="ych" & ovar2 == "none",xscale(range(-20 20)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar1 =="ych" & ovar2 == "none", xscale(range(-20 20)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))
-    ylabel(299 "Not Employed" 298 "Employed", angle(0) labsize(small) gmin gmax)
-	xtitle("Relative household production gap", size(small))
-    ytitle("Employment status")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") ring(0) position(9) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-
-;
-#delimit cr
-
-
-
-/*
-label define y_var 1 "Age:15-34" 2  "Age:25-39", modify
-
-scatter y_var end_gap if ovar2="none", ylabel (1 2 valuelabels), xscale(range(-15 15))
-*/
-
-/**Balance??
-
-gen b_day_gap = (day_d_n/day_r_n-1)*100
-
-((day_d_mean - day_r_mean) / (0.5 * (day_d_mean + day_r_mean))) * 100
-
-gen end_gap = ((end_d_mean - end_r_mean)/  (0.5 * (end_d_mean + end_r_mean))) * 100 
-*/
-
- foreach j in end_r_wn end_d_wn  {
- 	foreach k in day_r_wn day_d_wn {
-            drop2 twgt twgt2    `*_share   *_share       
-            bysort ovar1 ovar2:egen double twgt = sum(`j')    
-            replace `j'=`j'/twgt*100
-			gen `j'_share=`j'/twgt*100
-         
-            bysort ovar1 ovar2:egen double twgt2 = sum(`k')    
-            replace `k'=`k'/twgt2*100
-			gen `k'_share=`k'/twgt2*100
-	
-#delimit ;	
-twoway
-	(scatter y_var `j'_share if ovar2 == "none",xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var `k'_share if ovar2 == "none", xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-20(5)20, labsize(small))  
-    xtitle("Relative household production gap", size(small)) 
-    ytitle("Sub-groups")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") ring(0) position(9) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8)
-;
-#delimit cr
-	
-	}
- }
- 		
- 
- 
- 
-#delimit ;	
-twoway
-	(scatter y_var `j'_share if ovar2 == "none",xscale(range(-15 15)) msym(oh) mcolor(red))
-	(scatter y_var end_gap if ovar2 == "none", xscale(range(-15 15)) msym(o) mcolor(blue)),
-	xlabel(-10(4)10, labsize(small))  
-    xtitle("Relative household production gap", size(small)) 
-    ytitle("Sub-groups")
-    title("Match Quality: Comparing Mean differences", size(medium))
-	legend(order(1 "Weekday " 2 "Weekend") ring(0) position(9) rows(1))
-	xline(0, lcolor(black) lpattern(shortdash))
-    xsize(5) ysize(8)
-;
-#delimit cr
-	
-			
- }
- */
-
-

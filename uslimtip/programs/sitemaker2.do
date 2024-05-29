@@ -9,9 +9,9 @@ forvalues year = 2005/2023 {
     file write myfile "title: ASEC-ATUS Balance" _n 
     file write myfile "subtitle: Year `year'" _n 
     file write myfile "---" _n  _n
-    file write myfile "This page contains figures presenting the balance quality of data between ATUS " ///  
+    file write myfile "This page contains bar charts presenting the balance quality of data between ATUS " ///  
                       "(weekday and weekend) and ASEC."  _n _n ///
-                      "This is done for various selected groups and their interactions" _n _n
+                      "This is done for the various selected variables" _n _n
     file write myfile "{{< include howto.md >}}" _n _n
     file write myfile "{{< include resources/_`year'_balance_fig.qmd >}}" _n
                         
@@ -29,10 +29,10 @@ forvalues year = 2005/2023 {
     file write myfile "title: ASEC-ATUS Match Quality Statistics" _n 
     file write myfile "subtitle: Year `year'" _n 
     file write myfile "---" _n _n 
-    file write myfile "This page contains figures presenting the Match quality of data between ATUS " ///  
-                      "(weekday and weekend) and ASEC."  _n _n ///
-                      "This is done by comparing the mean for time " ///
-                      "spent on household production for various selected groups and the interaction of the strata variables (sex has children and employment status)" _n _n
+    file write myfile "This page contains Box plots evaluating Statistical Match quality between ATUS " ///  
+                      "(weekday and weekend) and ASEC data."  _n _n ///
+                      "This is done by comparing the distribution of total daily time spent on household production. " ///
+                      "We present the figures for the main strata group (sex has children and employment status) and for various selected variables." _n _n
     file write myfile "{{< include howto.md >}}" _n _n
     file write myfile "{{< include resources/_`year'_qm_fig.qmd >}}" _n
                         

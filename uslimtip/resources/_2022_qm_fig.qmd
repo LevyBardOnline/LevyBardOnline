@@ -1,254 +1,648 @@
-!## Gender!
+## Race
+
+### Weekend 
 
 ::: {.panel-tabset} 
 
-!tabl 1!
-## Weekday_Overall
+## Overall 
 
-### Gender
+::: {#fig-2022_race_o_end}
 
+![](resources/y2022/wkend_race.png)
 
-:::{#fig-wkdayall_sex}
-
-![](resources/y2022/2022wkday_sex.png)
-
-**Gender: Weekday 2022**
-
-::: 
-
-### Age group
-
-
-:::{#fig-wkdayall_age_group}
-
-![](resources/y2022/2022wkday_age_group.png)
-
-**Age: Weekday 2022**
-
-::: 
-
-
-### Race
-
-
-:::{#fig-wkdayall_race}
-
-![](resources/y2022/2022wkday_race.png)
-
-**Race: Weekday 2022**
-
-::: 
-
-### Employment status
-
-
-
-:::{#fig-wkdayall_emp}
-
-![](resources/y2022/2022wkday_empstat2.png)
-
-**Employment status: Weekday 2022**
-::: 
-
-
-### Education
-
-:::{#fig-wkdayall_edu}
-
-![](resources/y2022/2022wkday_educ_tb.png)
-
-**Education: Weekday 2022**
-
-::: 
-
-### Has children
-
-
-:::{#fig-wkday_hc}
-
-![](resources/y2022/2022wkday_haschildren.png)
-
-**Children present: Weekday 2022**
-
-::: 
-
-
-
-### Presence of young children
-
-
-:::{#fig-wkdayall}
-
-![](resources/y2022/2022wkday_ych.png)
-
-**Young children: Weekday 2022**
-
-::: 
-
-### Couple
-
-:::{#fig-wkdayall_couple}
-
-![](resources/y2022/2022wkday_iscouple.png)
-
-**Couple: Weekday 2022**
-
-::: 
-
-
-### Number of children
-
-
-:::{#fig-wkdayall_nchild}
-
-![](resources/y2022/2022wkday_ntchild.png)
-
-**Number of Children: Weekday 2022**
-
-::: 
-
-### Number of adults
-
-:::{#fig-wkdayall_nadult}
-
-![](resources/y2022/2022wkday_nadult.png)
-
-**Number of Adults: Weekday 2022**
-
-::: 
-
-
-### Family income
-
-:::{#fig-wkdayall_faminc}
-
-![](resources/y2022/2022wkday_faminc_q.png)
-
-**Family Income: Weekday 2022**
-
-::: 
-
-::: 
-
-!tab 2!
-
-## Weekend_Overall
-
-### Gender
-
-
-:::{#fig-wkendall_sex}
-
-![](resources/y2022/2022wkend_sex.png)
-
-**Gender: Weekend 2022**
-
-::: 
-
-### Age group
-
-
-:::{#fig-wkendall_age_group}
-
-![](resources/y2022/2022wkend_age_group.png)
-
-**Age: Weekend 2022**
-
-::: 
-
-
-### Race
-
-:::{#fig-wkendall_race}
-
-![](resources/y2022/2022wkend_race.png)
-
-**Race: Weekend 2022**
-
-::: 
-
-### Employment status
-
-
-:::{#fig-wkendall_emp}
-
-![](resources/y2022/2022wkend_empstat2.png)
-
-**Employment status: Weekend 2022**
-::: 
-
-
-### Education
-
-:::{#fig-wkendall_edu}
-
-![](resources/y2022/2022wkend_educ_tb.png)
-
-**Education: Weekend 2022**
-
-::: 
-
-### Has children
-
-:::{#fig-wkendall_hc}
-
-![](resources/y2022/2022wkend_haschildren.png)
-
-**Children present: Weekend 2022**
-
-::: 
-
-
-
-### Presence of young children
-
-:::{#fig-wkendall}
-
-![](resources/y2022/2022wkend_ych.png)
-
-**Young children: Weekend 2022**
-
-::: 
-
-### Couple
-
-:::{#fig-wkendall_couple}
-
-![](resources/y2022/2022wkend_iscouple.png)
-
-**Couple: Weekend 2022**
-
-::: 
-
-
-### Number of children
-
-
-::: {#fig-wkendall_nchild}
-
-![](resources/y2022/2022wkend_ntchild.png)
-
-**Number of Children: Weekend 2022**
-
-::: 
-
-### Number of adults
-
-:::{#fig-wkendall_nadult}
-
-![](resources/y2022/2022wkend_ntadult.png)
-
-**Number of Adults: Weekend 2022**
-
-::: 
-
-
-### Family income
-
-:::{#fig-wkendall_faminc}
-
-![](resources/y2022/2022wkend_faminc_q.png)
-
-**Family Income: Weekend 2022**
+**Box Plot** Time on Household Production
 
 :::
+
+## Men
+
+::: {#fig-2022_race_m_end}
+
+![](resources/y2022/mwkend_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_race_w_end}
+![](resources/y2022/fwkend_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_race_o_day}
+
+![](resources/y2022/wkday_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_race_m_day}
+
+![](resources/y2022/mwkday_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_race_w_day}
+![](resources/y2022/fwkday_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Age Group
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_age_group_o_end}
+
+![](resources/y2022/wkend_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_age_group_m_end}
+
+![](resources/y2022/mwkend_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_age_group_w_end}
+![](resources/y2022/fwkend_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_age_group_o_day}
+
+![](resources/y2022/wkday_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_age_group_m_day}
+
+![](resources/y2022/mwkday_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_age_group_w_day}
+![](resources/y2022/fwkday_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## 
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_empstat2_o_end}
+
+![](resources/y2022/wkend_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_empstat2_m_end}
+
+![](resources/y2022/mwkend_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_empstat2_w_end}
+![](resources/y2022/fwkend_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_empstat2_o_day}
+
+![](resources/y2022/wkday_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_empstat2_m_day}
+
+![](resources/y2022/mwkday_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_empstat2_w_day}
+![](resources/y2022/fwkday_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Young Child
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_ych_o_end}
+
+![](resources/y2022/wkend_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_ych_m_end}
+
+![](resources/y2022/mwkend_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_ych_w_end}
+![](resources/y2022/fwkend_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_ych_o_day}
+
+![](resources/y2022/wkday_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_ych_m_day}
+
+![](resources/y2022/mwkday_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_ych_w_day}
+![](resources/y2022/fwkday_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## # Children
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_ntchild_o_end}
+
+![](resources/y2022/wkend_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_ntchild_m_end}
+
+![](resources/y2022/mwkend_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_ntchild_w_end}
+![](resources/y2022/fwkend_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_ntchild_o_day}
+
+![](resources/y2022/wkday_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_ntchild_m_day}
+
+![](resources/y2022/mwkday_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_ntchild_w_day}
+![](resources/y2022/fwkday_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## # Adults
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_ntadult_o_end}
+
+![](resources/y2022/wkend_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_ntadult_m_end}
+
+![](resources/y2022/mwkend_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_ntadult_w_end}
+![](resources/y2022/fwkend_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_ntadult_o_day}
+
+![](resources/y2022/wkday_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_ntadult_m_day}
+
+![](resources/y2022/mwkday_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_ntadult_w_day}
+![](resources/y2022/fwkday_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Couple
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_iscouple_o_end}
+
+![](resources/y2022/wkend_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_iscouple_m_end}
+
+![](resources/y2022/mwkend_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_iscouple_w_end}
+![](resources/y2022/fwkend_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_iscouple_o_day}
+
+![](resources/y2022/wkday_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_iscouple_m_day}
+
+![](resources/y2022/mwkday_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_iscouple_w_day}
+![](resources/y2022/fwkday_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Education
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_educ_tb_o_end}
+
+![](resources/y2022/wkend_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_educ_tb_m_end}
+
+![](resources/y2022/mwkend_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_educ_tb_w_end}
+![](resources/y2022/fwkend_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_educ_tb_o_day}
+
+![](resources/y2022/wkday_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_educ_tb_m_day}
+
+![](resources/y2022/mwkday_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_educ_tb_w_day}
+![](resources/y2022/fwkday_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Family Income
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_faminc_q_o_end}
+
+![](resources/y2022/wkend_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_faminc_q_m_end}
+
+![](resources/y2022/mwkend_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_faminc_q_w_end}
+![](resources/y2022/fwkend_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2022_faminc_q_o_day}
+
+![](resources/y2022/wkday_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2022_faminc_q_m_day}
+
+![](resources/y2022/mwkday_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2022_faminc_q_w_day}
+![](resources/y2022/fwkday_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+

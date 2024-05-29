@@ -1,0 +1,648 @@
+## Race
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_race_o_end}
+
+![](resources/y2005/wkend_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_race_m_end}
+
+![](resources/y2005/mwkend_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_race_w_end}
+![](resources/y2005/fwkend_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_race_o_day}
+
+![](resources/y2005/wkday_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_race_m_day}
+
+![](resources/y2005/mwkday_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_race_w_day}
+![](resources/y2005/fwkday_race.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Age Group
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_age_group_o_end}
+
+![](resources/y2005/wkend_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_age_group_m_end}
+
+![](resources/y2005/mwkend_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_age_group_w_end}
+![](resources/y2005/fwkend_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_age_group_o_day}
+
+![](resources/y2005/wkday_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_age_group_m_day}
+
+![](resources/y2005/mwkday_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_age_group_w_day}
+![](resources/y2005/fwkday_age_group.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## 
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_empstat2_o_end}
+
+![](resources/y2005/wkend_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_empstat2_m_end}
+
+![](resources/y2005/mwkend_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_empstat2_w_end}
+![](resources/y2005/fwkend_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_empstat2_o_day}
+
+![](resources/y2005/wkday_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_empstat2_m_day}
+
+![](resources/y2005/mwkday_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_empstat2_w_day}
+![](resources/y2005/fwkday_empstat2.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Young Child
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_ych_o_end}
+
+![](resources/y2005/wkend_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_ych_m_end}
+
+![](resources/y2005/mwkend_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_ych_w_end}
+![](resources/y2005/fwkend_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_ych_o_day}
+
+![](resources/y2005/wkday_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_ych_m_day}
+
+![](resources/y2005/mwkday_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_ych_w_day}
+![](resources/y2005/fwkday_ych.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## # Children
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_ntchild_o_end}
+
+![](resources/y2005/wkend_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_ntchild_m_end}
+
+![](resources/y2005/mwkend_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_ntchild_w_end}
+![](resources/y2005/fwkend_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_ntchild_o_day}
+
+![](resources/y2005/wkday_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_ntchild_m_day}
+
+![](resources/y2005/mwkday_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_ntchild_w_day}
+![](resources/y2005/fwkday_ntchild.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## # Adults
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_ntadult_o_end}
+
+![](resources/y2005/wkend_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_ntadult_m_end}
+
+![](resources/y2005/mwkend_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_ntadult_w_end}
+![](resources/y2005/fwkend_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_ntadult_o_day}
+
+![](resources/y2005/wkday_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_ntadult_m_day}
+
+![](resources/y2005/mwkday_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_ntadult_w_day}
+![](resources/y2005/fwkday_ntadult.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Couple
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_iscouple_o_end}
+
+![](resources/y2005/wkend_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_iscouple_m_end}
+
+![](resources/y2005/mwkend_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_iscouple_w_end}
+![](resources/y2005/fwkend_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_iscouple_o_day}
+
+![](resources/y2005/wkday_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_iscouple_m_day}
+
+![](resources/y2005/mwkday_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_iscouple_w_day}
+![](resources/y2005/fwkday_iscouple.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Education
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_educ_tb_o_end}
+
+![](resources/y2005/wkend_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_educ_tb_m_end}
+
+![](resources/y2005/mwkend_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_educ_tb_w_end}
+![](resources/y2005/fwkend_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_educ_tb_o_day}
+
+![](resources/y2005/wkday_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_educ_tb_m_day}
+
+![](resources/y2005/mwkday_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_educ_tb_w_day}
+![](resources/y2005/fwkday_educ_tb.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+## Family Income
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_faminc_q_o_end}
+
+![](resources/y2005/wkend_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_faminc_q_m_end}
+
+![](resources/y2005/mwkend_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_faminc_q_w_end}
+![](resources/y2005/fwkend_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2005_faminc_q_o_day}
+
+![](resources/y2005/wkday_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Men
+
+::: {#fig-2005_faminc_q_m_day}
+
+![](resources/y2005/mwkday_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+## Women 
+
+::: {#fig-2005_faminc_q_w_day}
+![](resources/y2005/fwkday_faminc_q.png)
+
+**Box Plot** Time on Household Production
+
+:::
+
+::: 
+

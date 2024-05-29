@@ -11,7 +11,7 @@ forvalues year = 2005/2023 {
     file write myfile "---" _n  _n
     file write myfile "This page contains bar charts presenting the balance quality of data between ATUS " ///  
                       "(weekday and weekend) and ASEC."  _n _n ///
-                      "This is done for the various selected variables" _n _n
+                      "This is done for main selected variables" _n _n
     file write myfile "{{< include howto.md >}}" _n _n
     file write myfile "{{< include resources/_`year'_balance_fig.qmd >}}" _n
                         

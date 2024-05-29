@@ -1,3 +1,4 @@
+
 **online appendix USLIMTIP
 
 forvalues year = 2005/2023 {
@@ -94,6 +95,8 @@ graph box hprod_wkend if survey!=11 & sex==1, by(`i', note("") l1title("Daily mi
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkend_`i'.png", replace
 
 }
+
+
 *Women
 foreach i in g race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
 
@@ -107,6 +110,7 @@ graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/usli
 
 
 }
+
 
 *Balance
 

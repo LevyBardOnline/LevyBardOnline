@@ -3,9 +3,9 @@ title: ASEC-ATUS Match Quality Statistics
 subtitle: Year 2021
 ---
 
-This page contains figures presenting the Match quality of data between ATUS (weekday and weekend) and ASEC.
+This page contains Box plots evaluating Statistical Match quality between ATUS (weekday and weekend) and ASEC data.
 
-This is done by comparing the mean for time spent on household production for various selected groups and the interaction of the strata variables (sex has children and employment status)
+This is done by comparing the distribution of total daily time spent on household production. We present the figures for the main strata group (sex has children and employment status) and for various selected variables.
 
 {{< include howto.md >}}
 

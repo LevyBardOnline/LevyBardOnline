@@ -1,0 +1,12 @@
+---
+title: ASEC-ATUS Balance
+subtitle: Year 2007
+---
+
+This page contains bar charts presenting the balance quality of data between ATUS (weekday and weekend) and ASEC.
+
+This is done for main selected variables
+
+{{< include howto.md >}}
+
+{{< include resources/_2007_balance_fig.qmd >}}

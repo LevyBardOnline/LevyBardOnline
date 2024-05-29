@@ -45,56 +45,7 @@ forvalues year = 2005/2023 {
 ******************************************************************************** 
   foreach vmain in g{
  
-                file write myfile "## ${`vmain'}" _n _n                
-                
-                        file write myfile "### Weekend " _n _n   
-                        ///////////////////////////////////////////////////////////////////////////////
-                        file write myfile "::: {.panel-tabset} " _n _n
-                        
-                        file write myfile "## Overall " _n _n                        
-                        file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_end}" _n _n  
-                        
-                        file write myfile "## Men" _n _n
-                        
-                        file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_end}" _n _n  
-              
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Women " _n _n
-                        
-                        file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_end}" _n _n  
-                             
-                        file write myfile "::: " _n _n
-                        ///////////////////////////////////////////////////////////////////////////////
-                        file write myfile "### Weekday " _n _n                    
-                        
-                        file write myfile "::: {.panel-tabset} " _n _n
-                        
-                        file write myfile "## Overall " _n _n                        
-                        file write myfile "![](resources/y`year'/wkday_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_day}" _n _n  
-                                      
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Men" _n _n
-                        
-                        file write myfile "![](resources/y`year'/mwkday_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_day}" _n _n  
-              
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Women " _n _n
-                        
-                        file write myfile "![](resources/y`year'/fwkday_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_day}" _n _n  
-                             
-                        file write myfile "::: " _n _n
-                        ///////////////////////////////////////////////////////////////////////////////
-                }           
-
-            foreach vmain in race age_group empstat2 ych ntchild ntadult iscouple educ_tb faminc_q {
- 
-                file write myfile "## ${`vmain'}" _n _n                
+             file write myfile "## ${`vmain'}" _n _n                
                 
                         file write myfile "### Weekend " _n _n   
                         ///////////////////////////////////////////////////////////////////////////////
@@ -154,10 +105,84 @@ forvalues year = 2005/2023 {
                             file write myfile "![](resources/y`year'/mwkday_`vmain'.png)" _n _n	
                             file write myfile "**Box Plot** Time on Household Production" _n _n  
                             file write myfile ":::" _n _n             
+                            *file write myfile "{{< >}}" _n 
+                            file write myfile "## Women " _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_w_day}" _n _n
+                            file write myfile "![](resources/y`year'/fwkday_`vmain'.png)" _n _n		
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::"  _n _n            
+                        
+                        file write myfile "::: " _n _n
+                        ///////////////////////////////////////////////////////////////////////////////
+                }                  
+
+            foreach vmain in race age_group empstat2 ych ntchild ntadult iscouple educ_tb faminc_q {
+ 
+                file write myfile "## ${`vmain'}" _n _n                
+                
+                        file write myfile "### Weekend " _n _n   
+                        ///////////////////////////////////////////////////////////////////////////////
+                        file write myfile "::: {.panel-tabset} " _n _n                      
+                        
+                        file write myfile "## Overall " _n _n                        
+                        file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_end}" _n _n  
+                        
+                        file write myfile "## Men" _n _n
+                        
+                        file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_end}" _n _n  
+              
+                        *file write myfile "{{< >}}" _n 
+                        file write myfile "## Women " _n _n
+                        
+                        file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_end}" _n _n  
+                            file write myfile "## Overall " _n _n                        
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_o_end}" _n _n
+                            file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n	_n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n              
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Men" _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_m_end}" _n _n
+                            file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n _n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n             
                             *file write myfile "{{< >}}" _n
                             file write myfile "## Women " _n _n
                             
-                            file write myfile "::: {#fig-`year'_`vmain'_w_day}" _n
+                            file write myfile "::: {#fig-`year'_`vmain'_w_end}" _n
+                            file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n _n		
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::"  _n _n            
+                             
+                        file write myfile "::: " _n _n
+                        ///////////////////////////////////////////////////////////////////////////////
+                        file write myfile "### Weekday " _n _n                    
+                        
+                        file write myfile "::: {.panel-tabset} " _n _n
+                        
+                            file write myfile "## Overall " _n _n                        
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_o_day}" _n _n
+                            file write myfile "![](resources/y`year'/wkday_`vmain'.png)" _n	_n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n              
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Men" _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_m_day}" _n _n
+                            file write myfile "![](resources/y`year'/mwkday_`vmain'.png)" _n _n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n             
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Women " _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_w_day}" _n _n
                             file write myfile "![](resources/y`year'/fwkday_`vmain'.png)" _n _n		
                             file write myfile "**Box Plot** Time on Household Production" _n _n  
                             file write myfile ":::"  _n _n            
@@ -176,11 +201,11 @@ forvalues year = 2005/2023 {
 ******************************************************************************** 
             foreach vmain in race age_group empstat2 ych ntchild ntadult iscouple educ_tb faminc_q {
  
-                file write myfile "## ${`vmain'}" _n _n                
+                 file write myfile "## ${`vmain'}" _n _n                
                 
                         file write myfile "### Weekend " _n _n   
                         ///////////////////////////////////////////////////////////////////////////////
-                        file write myfile "::: {.panel-tabset} " _n _n
+                        file write myfile "::: {.panel-tabset} " _n _n                      
                         
                         file write myfile "## Overall " _n _n                        
                         file write myfile "![](resources/y`year'/wkend_`vmain'_b.png)" _n _n	
@@ -189,13 +214,33 @@ forvalues year = 2005/2023 {
                         file write myfile "## Men" _n _n
                         
                         file write myfile "![](resources/y`year'/mwkend_`vmain'_b.png)" _n _n	
-                        file write myfile " ****Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_m_end_b}" _n _n  
+                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_m_end_b}" _n _n  
               
                         *file write myfile "{{< >}}" _n
                         file write myfile "## Women " _n _n
                         
-                        file write myfile "![](resources/y`year'/fwkend_`vmain'_b.png)" _n	
-                        file write myfile " ****Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_w_end_b}" _n _n  
+                        file write myfile "![](resources/y`year'/fwkend_`vmain'_b.png)" _n _n
+                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_w_end_b}" _n _n  
+                            file write myfile "## Overall " _n _n                        
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_o_end_b}" _n _n
+                            file write myfile "![](resources/y`year'/wkend_`vmain_b'.png)" _n	_n	
+                            file write myfile "**Bar Graph** Distribution of Sample" _n _n  
+                            file write myfile ":::" _n _n              
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Men" _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_m_end_b}" _n _n
+                            file write myfile "![](resources/y`year'/mwkend_`vmain'_b.png)" _n _n	
+                            file write myfile "**Bar Graph** Distribution of Sample" _n _n  
+                            file write myfile ":::" _n _n             
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Women " _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_w_end_b}" _n
+                            file write myfile "![](resources/y`year'/fwkend_`vmain'_b.png)" _n _n		
+                            file write myfile "**Bar Graph** Distribution of Sample" _n _n  
+                            file write myfile ":::"  _n _n            
                              
                         file write myfile "::: " _n _n
                         ///////////////////////////////////////////////////////////////////////////////
@@ -203,25 +248,30 @@ forvalues year = 2005/2023 {
                         
                         file write myfile "::: {.panel-tabset} " _n _n
                         
-                        file write myfile "## Overall " _n _n                        
-                        file write myfile "![](resources/y`year'/wkday_`vmain'_b.png)" _n	
-                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_o_day_b}" _n _n  
-                                      
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Men" _n _n
+                            file write myfile "## Overall " _n _n                        
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_o_day_b}" _n _n
+                            file write myfile "![](resources/y`year'/wkday_`vmain'_b.png)" _n	_n	
+                            file write myfile "****Bar Graph** Distribution of Sample" _n _n  
+                            file write myfile ":::" _n _n              
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Men" _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_m_day_b}" _n _n
+                            file write myfile "![](resources/y`year'/mwkday_`vmain'_b.png)" _n _n	
+                            file write myfile "**Bar Graph** Distribution of Sample" _n _n  
+                            file write myfile ":::" _n _n             
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Women " _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_w_day_b}" _n
+                            file write myfile "![](resources/y`year'/fwkday_`vmain'_b.png)" _n _n		
+                            file write myfile "**Bar Graph** Distribution of Sample" _n _n  
+                            file write myfile ":::"  _n _n            
                         
-                        file write myfile "![](resources/y`year'/mwkday_`vmain'_b.png)" _n	
-                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_m_day_b}" _n _n  
-              
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Women " _n _n
-                        
-                        file write myfile "![](resources/y`year'/fwkday_`vmain'_b.png)" _n	
-                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_w_day_b}" _n _n  
-                             
                         file write myfile "::: " _n _n
                         ///////////////////////////////////////////////////////////////////////////////
-                }           
+                }          
 ********************************************************************************             
     file close myfile
 }

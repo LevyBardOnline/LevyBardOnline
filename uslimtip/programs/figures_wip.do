@@ -44,22 +44,28 @@ forvalues year = 2005/2023 {
                 
                         file write myfile "### Weekend " _n _n   
                         ///////////////////////////////////////////////////////////////////////////////
-                        file write myfile "::: {.panel-tabset} " _n _n
+                        file write myfile "::: {.panel-tabset} " _n _n                      
                         
-                        file write myfile "## Overall " _n _n                        
-                        file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_end}" _n _n  
-                        
-                        file write myfile "## Men" _n _n
-                        
-                        file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_end}" _n _n  
-              
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Women " _n _n
-                        
-                        file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_end}" _n _n  
+                            file write myfile "## Overall " _n _n                        
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_o_end}" _n _n
+                            file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n	_n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n              
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Men" _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_m_end}" _n _n
+                            file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n _n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n             
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Women " _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_w_end}" _n
+                            file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n _n		
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::"  _n _n            
                              
                         file write myfile "::: " _n _n
                         ///////////////////////////////////////////////////////////////////////////////
@@ -67,22 +73,27 @@ forvalues year = 2005/2023 {
                         
                         file write myfile "::: {.panel-tabset} " _n _n
                         
-                        file write myfile "## Overall " _n _n                        
-                        file write myfile "![](resources/y`year'/wkday_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_day}" _n _n  
-                                      
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Men" _n _n
+                            file write myfile "## Overall " _n _n                        
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_o_day}" _n _n
+                            file write myfile "![](resources/y`year'/wkday_`vmain'.png)" _n	_n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n              
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Men" _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_m_day}" _n _n
+                            file write myfile "![](resources/y`year'/mwkday_`vmain'.png)" _n _n	
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::" _n _n             
+                            *file write myfile "{{< >}}" _n
+                            file write myfile "## Women " _n _n
+                            
+                            file write myfile "::: {#fig-`year'_`vmain'_w_day}" _n
+                            file write myfile "![](resources/y`year'/fwkday_`vmain'.png)" _n _n		
+                            file write myfile "**Box Plot** Time on Household Production" _n _n  
+                            file write myfile ":::"  _n _n            
                         
-                        file write myfile "![](resources/y`year'/mwkday_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_day}" _n _n  
-              
-                        *file write myfile "{{< >}}" _n
-                        file write myfile "## Women " _n _n
-                        
-                        file write myfile "![](resources/y`year'/fwkday_`vmain'.png)" _n	
-                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_day}" _n _n  
-                             
                         file write myfile "::: " _n _n
                         ///////////////////////////////////////////////////////////////////////////////
                 }           

@@ -86,7 +86,7 @@ graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/usli
 
 
 *Men
-foreach i in race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q{
+foreach i in race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
 
 graph box hprod_wkday if survey!=12 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/m`year'wkday_`i'.png", replace

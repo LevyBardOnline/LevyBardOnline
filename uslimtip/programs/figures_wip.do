@@ -11,6 +11,8 @@ cd "Users\aashimasin\Documents\GitHub\LevyBardOnline\uslimtip\resources"
         label define sex 1 "Men" 2 "Women",  replace
         label define ych 0 "No young Child" 1 "Young Child present"  ,  replace 
 		label define haschildren 0 "No children" 1 "Child(ren) present"  ,  replace 
+        label define g 1 "m_nc_ne" 2 "m_nc_e" 3 "m_c_ne" 4 "m_c_e" 5 "w_nc_ne" 6 "w_nc_e" 7 "w_c_ne" 8 "w_c_e",  replace 
+
 
 		label values age_group  age_group
 		label values educ_tb  educ_tb
@@ -23,6 +25,8 @@ cd "Users\aashimasin\Documents\GitHub\LevyBardOnline\uslimtip\resources"
 		label values sex sex
 		label values ych ych
 		label values haschildren haschildren
+        label values g g
+
 
         global age_group  "Age Group"
         global educ_tb    "Education"
@@ -34,10 +38,60 @@ cd "Users\aashimasin\Documents\GitHub\LevyBardOnline\uslimtip\resources"
         global race       "Race"
         global sex        "Gender"
         global ych        "Young Child"
+        global g       "Gender x Child x Employment"
         *global haschildren "Children in HH"
 forvalues year = 2005/2023 {
     file open myfile using _`year'_qm_fig.qmd, write replace
-********************************************************************************    
+******************************************************************************** 
+  foreach vmain in g{
+ 
+                file write myfile "## ${`vmain'}" _n _n                
+                
+                        file write myfile "### Weekend " _n _n   
+                        ///////////////////////////////////////////////////////////////////////////////
+                        file write myfile "::: {.panel-tabset} " _n _n
+                        
+                        file write myfile "## Overall " _n _n                        
+                        file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_end}" _n _n  
+                        
+                        file write myfile "## Men" _n _n
+                        
+                        file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_end}" _n _n  
+              
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Women " _n _n
+                        
+                        file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_end}" _n _n  
+                             
+                        file write myfile "::: " _n _n
+                        ///////////////////////////////////////////////////////////////////////////////
+                        file write myfile "### Weekday " _n _n                    
+                        
+                        file write myfile "::: {.panel-tabset} " _n _n
+                        
+                        file write myfile "## Overall " _n _n                        
+                        file write myfile "![](resources/y`year'/wkday_`vmain'.png)" _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_day}" _n _n  
+                                      
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Men" _n _n
+                        
+                        file write myfile "![](resources/y`year'/mwkday_`vmain'.png)" _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_day}" _n _n  
+              
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Women " _n _n
+                        
+                        file write myfile "![](resources/y`year'/fwkday_`vmain'.png)" _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_day}" _n _n  
+                             
+                        file write myfile "::: " _n _n
+                        ///////////////////////////////////////////////////////////////////////////////
+                }           
+
             foreach vmain in race age_group empstat2 ych ntchild ntadult iscouple educ_tb faminc_q {
  
                 file write myfile "## ${`vmain'}" _n _n                
@@ -46,6 +100,20 @@ forvalues year = 2005/2023 {
                         ///////////////////////////////////////////////////////////////////////////////
                         file write myfile "::: {.panel-tabset} " _n _n                      
                         
+                        file write myfile "## Overall " _n _n                        
+                        file write myfile "![](resources/y`year'/wkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_o_end}" _n _n  
+                        
+                        file write myfile "## Men" _n _n
+                        
+                        file write myfile "![](resources/y`year'/mwkend_`vmain'.png)" _n _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_m_end}" _n _n  
+              
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Women " _n _n
+                        
+                        file write myfile "![](resources/y`year'/fwkend_`vmain'.png)" _n	
+                        file write myfile " **Box Plot** Time on Household Production {#tbl-`year'_`vmain'_w_end}" _n _n  
                             file write myfile "## Overall " _n _n                        
                             
                             file write myfile "::: {#fig-`year'_`vmain'_o_end}" _n _n
@@ -102,4 +170,60 @@ forvalues year = 2005/2023 {
 }
   
 
+
+forvalues year = 2005/2023 {
+    file open myfile using _`year'_bal_fig.qmd, write replace
+******************************************************************************** 
+            foreach vmain in race age_group empstat2 ych ntchild ntadult iscouple educ_tb faminc_q {
+ 
+                file write myfile "## ${`vmain'}" _n _n                
+                
+                        file write myfile "### Weekend " _n _n   
+                        ///////////////////////////////////////////////////////////////////////////////
+                        file write myfile "::: {.panel-tabset} " _n _n
+                        
+                        file write myfile "## Overall " _n _n                        
+                        file write myfile "![](resources/y`year'/wkend_`vmain'_b.png)" _n _n	
+                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_o_end_b}" _n _n  
+                        
+                        file write myfile "## Men" _n _n
+                        
+                        file write myfile "![](resources/y`year'/mwkend_`vmain'_b.png)" _n _n	
+                        file write myfile " ****Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_m_end_b}" _n _n  
+              
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Women " _n _n
+                        
+                        file write myfile "![](resources/y`year'/fwkend_`vmain'_b.png)" _n	
+                        file write myfile " ****Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_w_end_b}" _n _n  
+                             
+                        file write myfile "::: " _n _n
+                        ///////////////////////////////////////////////////////////////////////////////
+                        file write myfile "### Weekday " _n _n                    
+                        
+                        file write myfile "::: {.panel-tabset} " _n _n
+                        
+                        file write myfile "## Overall " _n _n                        
+                        file write myfile "![](resources/y`year'/wkday_`vmain'_b.png)" _n	
+                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_o_day_b}" _n _n  
+                                      
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Men" _n _n
+                        
+                        file write myfile "![](resources/y`year'/mwkday_`vmain'_b.png)" _n	
+                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_m_day_b}" _n _n  
+              
+                        *file write myfile "{{< >}}" _n
+                        file write myfile "## Women " _n _n
+                        
+                        file write myfile "![](resources/y`year'/fwkday_`vmain'_b.png)" _n	
+                        file write myfile " **Bar Graph** Distribution of Sample {#tbl-`year'_`vmain'_w_day_b}" _n _n  
+                             
+                        file write myfile "::: " _n _n
+                        ///////////////////////////////////////////////////////////////////////////////
+                }           
+********************************************************************************             
+    file close myfile
+}
+  
 

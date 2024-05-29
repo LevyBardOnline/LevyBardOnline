@@ -10,216 +10,217 @@ This is organized by year.
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2005_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2005_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2005_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2005_qm_fig.qmd) 
 
 ## Year 2006
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2006_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2006_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2006_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2006_qm_fig.qmd) 
 
 ## Year 2007
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2007_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2007_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2007_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2007_qm_fig.qmd) 
 
 ## Year 2008
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2008_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2008_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2008_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2008_qm_fig.qmd) 
 
 ## Year 2009
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2009_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2009_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2009_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2009_qm_fig.qmd) 
 
 ## Year 2010
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2010_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2010_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2010_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2010_qm_fig.qmd) 
 
 ## Year 2011
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2011_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2011_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2011_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2011_qm_fig.qmd) 
 
 ## Year 2012
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2012_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2012_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2012_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2012_qm_fig.qmd) 
 
 ## Year 2013
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2013_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2013_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2013_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2013_qm_fig.qmd) 
 
 ## Year 2014
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2014_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2014_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2014_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2014_qm_fig.qmd) 
 
 ## Year 2015
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2015_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2015_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2015_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2015_qm_fig.qmd) 
+ 
 
 ## Year 2016
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2016_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2016_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2016_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2016_qm_fig.qmd) 
 
 ## Year 2017
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2017_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2017_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2017_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2017_qm_fig.qmd) 
 
 ## Year 2018
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2018_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2018_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2018_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2018_qm_fig.qmd) 
 
 ## Year 2019
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2019_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2019_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2019_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2019_qm_fig.qmd) 
 
 ## Year 2020
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2020_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2020_bal_fig.qmd)  
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2020_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2020_qm_fig.qmd) 
 
 ## Year 2021
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2021_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2021_bal_fig.qmd)  
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2021_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2021_qm_fig.qmd) 
 
 ## Year 2022
 
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2022_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2022_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2022_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2022_qm_fig.qmd) 
 
 
 ## Year 2023
@@ -227,10 +228,10 @@ This is organized by year.
 ### Balance 
 
 * [Tables](uslimtip/uslimtip2023_bal.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2023_bal_fig.qmd) 
 
 ### Match Quality 
 
 * [Tables](uslimtip/uslimtip2023_qm.qmd) 
-* Figures 
+* [Figures](uslimtip/uslimtip2023_qm_fig.qmd) 
 

@@ -73,12 +73,11 @@ color_style bay
 			 			 
 foreach i in g sex race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
 	
-graph box hprod_wkday if survey!=12, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
-
+graph box hprod_wkday if survey!=12, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") ylabel(0(500)1500)name(wkday_`i', replace) 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/wkday_`i'.png", replace
 
 
-graph box hprod_wkend if survey!=11, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkend_`i', replace) 
+graph box hprod_wkend if survey!=11, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") ylabel(0(500)1500) name(wkend_`i', replace) 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/wkend_`i'.png", replace
 
 }
@@ -87,10 +86,10 @@ graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/usli
 *Men
 foreach i in g race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q{
 
-graph box hprod_wkday if survey!=12 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
+graph box hprod_wkday if survey!=12 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") ylabel(0(500)1500) name(wkday_`i', replace) 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkday_`i'.png", replace
 
-graph box hprod_wkend if survey!=11 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkend_`i', replace) 
+graph box hprod_wkend if survey!=11 & sex==1, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes")ylabel(0(500)1500) name(wkend_`i', replace) 
 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/mwkend_`i'.png", replace
 
@@ -101,11 +100,11 @@ graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/usli
 foreach i in g race age_group empstat2 haschildren ych ntchild ntadult iscouple educ_tb faminc_q {
 
 
-graph box hprod_wkday if survey!=12 & sex==2, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkday_`i', replace) 
+graph box hprod_wkday if survey!=12 & sex==2, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") ylabel(0(500)1500) name(wkday_`i', replace) 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/fwkday_`i'.png", replace
 
 
-graph box hprod_wkend if survey!=11 & sex==2, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") name(wkend_`i', replace) 
+graph box hprod_wkend if survey!=11 & sex==2, by(`i', note("") l1title("Daily minutes") compact) over(survey) ytitle("Daily minutes") ylabel(0(500)1500) name(wkend_`i', replace) 
 graph export "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/resources/y`year'/fwkend_`i'.png", replace
 
 

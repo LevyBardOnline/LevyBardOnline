@@ -1,0 +1,648 @@
+## Race
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_race_o_end_b}
+
+![](resources/y2019/wkend_race_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_race_m_end_b}
+
+![](resources/y2019/mwkend_race_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_race_w_end_b}
+![](resources/y2019/fwkend_race_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_race_o_day_b}
+
+![](resources/y2019/wkday_race_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_race_m_day_b}
+
+![](resources/y2019/mwkday_race_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_race_w_day_b}
+![](resources/y2019/fwkday_race_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## Age Group
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_age_group_o_end_b}
+
+![](resources/y2019/wkend_age_group_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_age_group_m_end_b}
+
+![](resources/y2019/mwkend_age_group_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_age_group_w_end_b}
+![](resources/y2019/fwkend_age_group_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_age_group_o_day_b}
+
+![](resources/y2019/wkday_age_group_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_age_group_m_day_b}
+
+![](resources/y2019/mwkday_age_group_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_age_group_w_day_b}
+![](resources/y2019/fwkday_age_group_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## 
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_empstat2_o_end_b}
+
+![](resources/y2019/wkend_empstat2_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_empstat2_m_end_b}
+
+![](resources/y2019/mwkend_empstat2_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_empstat2_w_end_b}
+![](resources/y2019/fwkend_empstat2_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_empstat2_o_day_b}
+
+![](resources/y2019/wkday_empstat2_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_empstat2_m_day_b}
+
+![](resources/y2019/mwkday_empstat2_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_empstat2_w_day_b}
+![](resources/y2019/fwkday_empstat2_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## Young Child
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_ych_o_end_b}
+
+![](resources/y2019/wkend_ych_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_ych_m_end_b}
+
+![](resources/y2019/mwkend_ych_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_ych_w_end_b}
+![](resources/y2019/fwkend_ych_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_ych_o_day_b}
+
+![](resources/y2019/wkday_ych_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_ych_m_day_b}
+
+![](resources/y2019/mwkday_ych_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_ych_w_day_b}
+![](resources/y2019/fwkday_ych_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## # Children
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_ntchild_o_end_b}
+
+![](resources/y2019/wkend_ntchild_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_ntchild_m_end_b}
+
+![](resources/y2019/mwkend_ntchild_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_ntchild_w_end_b}
+![](resources/y2019/fwkend_ntchild_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_ntchild_o_day_b}
+
+![](resources/y2019/wkday_ntchild_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_ntchild_m_day_b}
+
+![](resources/y2019/mwkday_ntchild_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_ntchild_w_day_b}
+![](resources/y2019/fwkday_ntchild_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## # Adults
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_ntadult_o_end_b}
+
+![](resources/y2019/wkend_ntadult_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_ntadult_m_end_b}
+
+![](resources/y2019/mwkend_ntadult_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_ntadult_w_end_b}
+![](resources/y2019/fwkend_ntadult_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_ntadult_o_day_b}
+
+![](resources/y2019/wkday_ntadult_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_ntadult_m_day_b}
+
+![](resources/y2019/mwkday_ntadult_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_ntadult_w_day_b}
+![](resources/y2019/fwkday_ntadult_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## Couple
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_iscouple_o_end_b}
+
+![](resources/y2019/wkend_iscouple_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_iscouple_m_end_b}
+
+![](resources/y2019/mwkend_iscouple_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_iscouple_w_end_b}
+![](resources/y2019/fwkend_iscouple_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_iscouple_o_day_b}
+
+![](resources/y2019/wkday_iscouple_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_iscouple_m_day_b}
+
+![](resources/y2019/mwkday_iscouple_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_iscouple_w_day_b}
+![](resources/y2019/fwkday_iscouple_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## Education
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_educ_tb_o_end_b}
+
+![](resources/y2019/wkend_educ_tb_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_educ_tb_m_end_b}
+
+![](resources/y2019/mwkend_educ_tb_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_educ_tb_w_end_b}
+![](resources/y2019/fwkend_educ_tb_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_educ_tb_o_day_b}
+
+![](resources/y2019/wkday_educ_tb_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_educ_tb_m_day_b}
+
+![](resources/y2019/mwkday_educ_tb_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_educ_tb_w_day_b}
+![](resources/y2019/fwkday_educ_tb_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+## Family Income
+
+### Weekend 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_faminc_q_o_end_b}
+
+![](resources/y2019/wkend_faminc_q_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_faminc_q_m_end_b}
+
+![](resources/y2019/mwkend_faminc_q_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_faminc_q_w_end_b}
+![](resources/y2019/fwkend_faminc_q_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+
+### Weekday 
+
+::: {.panel-tabset} 
+
+## Overall 
+
+::: {#fig-2019_faminc_q_o_day_b}
+
+![](resources/y2019/wkday_faminc_q_b.png)
+
+****Bar Graph** Distribution of Sample
+
+:::
+
+## Men
+
+::: {#fig-2019_faminc_q_m_day_b}
+
+![](resources/y2019/mwkday_faminc_q_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+## Women 
+
+::: {#fig-2019_faminc_q_w_day_b}
+![](resources/y2019/fwkday_faminc_q_b.png)
+
+**Bar Graph** Distribution of Sample
+
+:::
+
+::: 
+

@@ -1,5 +1,5 @@
-cd "Users\aashimasin\Documents\GitHub\LevyBardOnline.github.io\uslimtip"
 
+cd "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/"
 
 
 forvalues year = 2005/2023 {
@@ -13,13 +13,13 @@ forvalues year = 2005/2023 {
                       "(weekday and weekend) and ASEC."  _n _n ///
                       "This is done for main selected variables" _n _n
     file write myfile "{{< include howto.md >}}" _n _n
-    file write myfile "{{< include resources/_`year'_balance_fig.qmd >}}" _n
+    file write myfile "{{< include resources/_`year'_bal_fig.qmd >}}" _n
                         
 ********************************************************************************             
     file close myfile
 }
  
-cd "Users\aashimasin\Documents\GitHub\LevyBardOnline.github.io\uslimtip"
+cd "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/"
 
  
 forvalues year = 2005/2023 {

@@ -19,7 +19,7 @@ forvalues year = 2005/2023 {
     file close myfile
 }
  
-cd "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/"
+*cd "/Users/aashimasinha/Documents/GitHub/LevyBardOnline.github.io/uslimtip/"
 
  
 forvalues year = 2005/2023 {
